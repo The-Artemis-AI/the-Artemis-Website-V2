@@ -1,1 +1,0 @@
-const s="/the-Artemis-Website-V2/assets/hero1-DYK9BQWV.png",e="/the-Artemis-Website-V2/assets/manhattan-uwB05OaH.png",t="/the-Artemis-Website-V2/assets/mckinsey-TKnZSsHo.png",a="/the-Artemis-Website-V2/assets/birmingham--b0lRYdb.png",n="/the-Artemis-Website-V2/assets/nhgri-8AKZsLj5.svg";export{a as B,s as I,t as M,n as N,e as a};
