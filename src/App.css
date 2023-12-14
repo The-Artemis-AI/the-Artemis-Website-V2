@@ -1,0 +1,53 @@
+*{
+    /* font-family:'Hedvig Letters Sans', sans-serif; */
+    font-family:'Lato', sans-serif;
+    /* font-family:'Montserrat', sans-serif; */
+   
+}
+
+
+.navbar .links p::before {
+    content: "";
+    width: 30%;
+    border-top: 1px solid black;
+    position: absolute;
+    bottom: 55px;
+    right:1px;
+    
+    /* display:none; */
+    padding:.3px 5px;
+    background:black;
+    border-radius: 100%;
+  }
+ .navbar .links p:hover.navbar .links p::before{
+    display:block;
+  }
+
+  .navbar p{
+    position: relative;
+  }
+  .navbar p::before{
+    content:"";
+    width:80%;
+    border:1.3px solid black;
+    position:absolute;
+    bottom: 0;
+    transform: translateX(10%);
+    display:none;
+  }
+
+/* .navbar p:hover .navbar p::before{
+  display:block;
+}
+.navbar #active::before{
+  display:block;
+} */
+
+.navbar p:hover::before, /* Apply the hover effect on ::before */
+.navbar #active::before { /* Apply the effect when the element has the id of 'active' */
+  display: block;
+}
+
+#active{
+  font-weight: 600;
+}
