@@ -1,8 +1,8 @@
 {
-  "name": "theartemiswebsite",
+  "name": "the-Artemis-Website-V2",
   "homepage": "https://the-artemis-ai.github.io/the-Artemis-Website-V2/",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.0.1",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -10,7 +10,8 @@
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist",
+    "deploy2": "gh-pages -d build"
   },
   "dependencies": {
     "axios": "^1.6.2",
