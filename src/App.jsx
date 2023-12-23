@@ -1,12 +1,12 @@
-import { useState } from 'react'
-import { BrowserRouter as Router, Routes, Route, Outlet, Link } from 'react-router-dom'
+import { BrowserRouter as Router, Routes, Route, Outlet } from 'react-router-dom'
 import { lazy, Suspense } from 'react'
-// import Navbar from './assets/components/Navbar'
+
 import "./App.css"
 const HomePage = lazy(()=>import("./assets/components/pages/HomePage"))
 const ProductsPage = lazy(()=>import("./assets/components/pages/ProductsPage"))
 const ServicesPage = lazy(()=>import("./assets/components/pages/ServicesPage"))
 const SingleProductPage = lazy(()=>import("./assets/components/pages/SingleProductPage"))
+const SingleMediaPage = lazy(()=>import("./assets/components/pages/SingleMediaPage"))
 const MediaPage = lazy(()=>import("./assets/components/pages/MediaPage"))
 const ErrorPage = lazy(()=>import("./assets/components/HomeSections/ErrorPage"))
 const AboutUsPage = lazy(()=>import("./assets/components/pages/AboutUsPage"))
@@ -19,13 +19,15 @@ function App() {
     <Routes>
     <Route element={<Wrapper/>}/>
     <Route index element={<HomePage />}/>
-    <Route index path="/home" element={<HomePage />}/>
-    <Route path="/products" element={<ProductsPage/>}/>
-    <Route path="/services" element={<ServicesPage/>}/>
-    <Route path="/products/:productId" element={<SingleProductPage/>}/>
-    <Route path="/media" element={<MediaPage/>}/>
-    <Route path="/about" element={<AboutUsPage/>}/>
-    <Route path="/talent" element={<TalentPage/>}/>
+    <Route index path="/the-Artemis-Website-V2/" element={<HomePage />}/>
+    <Route index path="/the-Artemis-Website-V2/home" element={<HomePage />}/>
+    <Route path="/the-Artemis-Website-V2/products" element={<ProductsPage/>}/>
+    <Route path="/the-Artemis-Website-V2/services" element={<ServicesPage/>}/>
+    <Route path="/the-Artemis-Website-V2/products/:productId" element={<SingleProductPage/>}/>
+    <Route path="/the-Artemis-Website-V2/media" element={<MediaPage/>}/>
+    <Route path="/the-Artemis-Website-V2/media/:mediaId" element={<SingleMediaPage/>}/>
+    <Route path="/the-Artemis-Website-V2/about" element={<AboutUsPage/>}/>
+    <Route path="/the-Artemis-Website-V2/talent" element={<TalentPage/>}/>
     <Route path="*" element={<ErrorPage/>}/>
     </Routes>
     </Router>

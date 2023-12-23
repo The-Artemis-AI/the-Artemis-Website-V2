@@ -10,7 +10,7 @@ export default {
         blacky:"#262626"
       },
       screens:{
-        phones:"450px",
+        phone:"450px",
         bigphone:"650px",
         tablet:"860px"
       }

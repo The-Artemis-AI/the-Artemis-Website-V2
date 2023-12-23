@@ -4,6 +4,8 @@ import ContactSection from "../ContactSection"
 import Footer from "../Footer"
 import TestimonialsSection from "../TestimonialsSection"
 import FAQSection from "../HomeSections/FAQSection"
+  import OurProductSection from "../HomeSections/ProductsSections/OurProductSection"
+  import OurBlogSection from "../HomeSections/OurBlogSection"
 function MediaPage() {
   return (
     <div className='p-0 m-0 w-full h-[100vh]'>
@@ -18,6 +20,7 @@ function MediaPage() {
     Image = {Image}
     />
 
+    <OurBlogSection/>
     <TestimonialsSection/>
     <FAQSection/>
     <ContactSection/>

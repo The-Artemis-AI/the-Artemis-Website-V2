@@ -1,6 +1,9 @@
 import React from 'react'
-import people from "../images/people.jpg"
+import people from "../images/people3.png"
 import ClientsComponent from './ClientsComponent'
+import Academia from "../images/academia.svg"
+import Government from "../images/government.svg"
+import Private  from "../images/private-sector.svg"
 
 function OurClientsSection() {
   return (
@@ -14,9 +17,18 @@ function OurClientsSection() {
     <p className='text-sm'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia quo natus voluptates repudi</p>
     </div>
     <div className='flex flex-col ]'>
-    <ClientsComponent/>
-    <ClientsComponent/>
-    <ClientsComponent/>
+    <ClientsComponent 
+    Icon ={Academia}
+    title= "Academia"
+    />
+    <ClientsComponent 
+    Icon ={Private}
+    title= "Private Sector"
+    />
+    <ClientsComponent 
+    Icon ={Government}
+    title= "Governments"
+    />
     </div>
     </div>
     </div>
