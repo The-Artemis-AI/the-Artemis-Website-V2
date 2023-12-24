@@ -21,10 +21,10 @@ function Navbar(props) {
     <a href="/the-Artemis-Website-V2/talent"><p className='text-sm cursor-pointer' id={active ==="Talent"?'active':""}> Talent</p></a>
     <a href="/the-Artemis-Website-V2/about"><p className='text-sm cursor-pointer' id={active ==="About"?'active':""}> About Us</p></a>
     </div>
-    <button className='hidden tablet:flex text-white text-xs p-2 px-4 bg-blacky rounded-full w-[15%] tablet:w-[10%] text-center items-center justify-center'>Let's Talk</button>
+    <button className='hidden tablet:flex text-white text-xs p-2 px-4 bg-blacky rounded-full text-center items-center justify-center'>Let's Talk</button>
     <button onClick={()=>setIsHeaderShown(!hedersShown)} className='tablet:hidden'>{!hedersShown? <RxHamburgerMenu className='text-3xl '/>:<RxCross2 className='text-3xl '/>}</button>
     </div>
-    {hedersShown && <div className=' bg-white border border-gray-300 z-10 absolute w-full h-[70%] py-10 space-y-2 items-center flex  flex-col'>
+    {hedersShown && <div className=' bg-white border border-gray-300 z-10 absolute w-full h-[70%] py-10 space-y-4 items-center flex  flex-col z-30'>
     <a href="/the-Artemis-Website-V2/"> <p className='text-sm cursor-pointer' id={active ==="Home"?'active':""}> Home</p></a>
     <a href="/the-Artemis-Website-V2/services"> <p className='text-sm cursor-pointer' id={active ==="Service"?'active':""}> Services</p></a>
     <a href="/the-Artemis-Website-V2/products"> <p className='text-sm cursor-pointer' id={active ==="Product"?'active':""}> Products</p></a>

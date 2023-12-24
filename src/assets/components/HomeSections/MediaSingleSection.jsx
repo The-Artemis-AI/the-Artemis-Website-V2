@@ -23,11 +23,11 @@ function MediaSingleSection() {
     
 
   return (
-    <div className='m-0 w-full min-h-[100vh] px-20'>
+    <div className='m-0 w-full min-h-[100vh] px-10 bigphone:px-20'>
 
     <img src={Image} alt="image"  className='w-full h-[30%] object-cover'/>
     <div className='py-10 flex flex-row justify-between'>
-    <div className='w-[50%]  flex flex-col '>
+    <div className='w-[100%] bigphone:w-[50%]  flex flex-row bigphone:flex-col '>
     <p className='text-sm bigphone:text-lg my-2' style={{}}> {serviceContent.paragraph1}</p>
     <p className='text-sm bigphone:text-lg my-2' style={{}}> {serviceContent.paragraph2}</p>
     <p className='text-sm bigphone:text-lg my-2' style={{}}> {serviceContent.paragraph3}</p>

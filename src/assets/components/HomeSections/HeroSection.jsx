@@ -6,7 +6,7 @@ import Navbar from '../Navbar';
 function HeroSection() {
   return (
     <div className='w-full h-full'>
-    <div className='z-20'>
+    <div className=''>
     <Navbar zIndex="10" activeLink="Home"/>
     </div>
      <div className=" w-full h-[90%] bigphone:px-20 p-10 mx-auto bg-white items-center flex flex-col-reverse tablet:flex-row">
