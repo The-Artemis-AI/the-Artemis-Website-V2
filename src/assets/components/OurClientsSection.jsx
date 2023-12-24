@@ -7,7 +7,7 @@ import Private  from "../images/private-sector.svg"
 
 function OurClientsSection() {
   return (
-    <div className='w-full min-h-full tablet:h-full p-10 px-20  bg-white flex flex-col tablet:flex-row justify-between items-center'>
+    <div className='w-full min-h-full tablet:h-full p-5 bigphone:p-10 tablet:px-20  bg-white flex flex-col tablet:flex-row justify-between items-center'>
     <div className="h-full w-full tablet:w-[50%] object-contain" style={{backgroundImage:`${people}`}}>
     <img src={people} className='w-full h-full object-contain'/>
     </div>

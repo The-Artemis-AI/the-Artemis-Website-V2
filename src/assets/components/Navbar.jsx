@@ -15,6 +15,7 @@ function Navbar(props) {
     </div>
     <div className='navbar hidden tablet:flex space-x-6 justify-center  w-[60%]'>
     <a href="/the-Artemis-Website-V2/"> <p className='text-sm cursor-pointer' id={active ==="Home"?'active':""} style={{display:"block"}}> Home</p></a>
+    <Link to="/the-Artemis-Website-V2/"><p className='text-sm cursor-pointer' id={active === "Home" ? 'active' : ""}>Home</p></Link>
     <a href="/the-Artemis-Website-V2/services"> <p className='text-sm cursor-pointer' id={active ==="Services"?'active':""}> Services</p></a>
     <a href="/the-Artemis-Website-V2/products"><p className='text-sm cursor-pointer' id={active ==="Products"?'active':""}> Products</p></a>
     <a href="/the-Artemis-Website-V2/media"><p className='text-sm cursor-pointer' id={active ==="Media"?'active':""}> Media</p></a>

@@ -50,9 +50,9 @@ function TestimonialsSection() {
     // }
     
     return (
-    <div className='w-full py-20 p-10 px-20  bg-gray-100 flex flex-col tablet:flex-row justify-between items-center'>
+    <div className='w-full py-20 p-5 bigphone:p-10 tablet:px-20  bg-gray-100 flex flex-col tablet:flex-row justify-between items-center'>
     <div className='w-full tablet:w-[60%] flex flex-col justify-between'>
-    <div className='space-y-10 w-[60%]'>
+    <div className='space-y-10 bigphone:w-[60%]'>
         <h3 className='text-5xl '>Our Testimonials</h3>
         <p className='text-sm'>The phrase beauty is in the hands of the beholder is an expression that means that what is considered beautiful is subjective and depends on individual perceptions and preferences. It suggests that different people may have different definitions of beauty and that there is no objective standard for what is considered beautiful. </p>
     </div>

@@ -18,7 +18,7 @@ function App() {
     <Router>
     <Routes>
     <Route element={<Wrapper/>}/>
-    <Route index element={<HomePage />}/>
+    <Route index element={<HomePage />} />
     <Route index path="/the-Artemis-Website-V2/" element={<HomePage />}/>
     <Route index path="/the-Artemis-Website-V2/home" element={<HomePage />}/>
     <Route path="/the-Artemis-Website-V2/products" element={<ProductsPage/>}/>
