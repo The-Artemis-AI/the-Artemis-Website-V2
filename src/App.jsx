@@ -1,4 +1,4 @@
-import {BrowserRouter as Router, Routes, Route, Outlet,  } from 'react-router-dom'
+import {HashRouter as Router, Routes, Route, Outlet,  } from 'react-router-dom'
 import { lazy, Suspense} from 'react'
 import HomePage from './assets/components/pages/HomePage'
 import ProductsPage from "./assets/components/pages/ProductsPage"
@@ -44,7 +44,7 @@ function App() {
     <Route path="/the-Artemis-Website-V2/about" element={<AboutUsPage/>}/>
     <Route path="/the-Artemis-Website-V2/talent" element={<TalentPage/>}/>
     <Route path="/the-Artemis-Website-V2/*" element={<ErrorPage/>}/>
-    <Route path="/the-Artemis-Website-V2/*" element={<ErrorPage/>}/>
+    <Route path="*" element={<ErrorPage/>}/>
     </Routes>
     </Router>
   )
