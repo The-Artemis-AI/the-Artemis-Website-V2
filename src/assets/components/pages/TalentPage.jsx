@@ -10,7 +10,7 @@ function TalentPage() {
     <div className='p-0 m-0 w-full h-[100vh]'>
     <PageTopSection 
     activeLink="Talent"
-    title="Meet The Team"
+    title="Our Talent"
     subtitle="Stay Up to Date with Artemis AI"
     firstPart="Stay "
     underlined="Up to Date "

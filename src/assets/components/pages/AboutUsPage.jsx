@@ -21,7 +21,7 @@ function AboutUsPage() {
     Image = {People}
     />
 
-    <div className='w-[85%] h-[45%] tablet:h-[60%] mx-auto phone:my-10 flex flex-col tablet:flex-row items-center justify-between'>
+    <div className='w-[85%] h-[50%] tablet:h-[60%] mx-auto phone:my-10 flex flex-col tablet:flex-row items-center justify-between'>
     <div className='w-[70%] text-center tablet:text-start tablet:w-[50%] my-2  '>
     
      <h3 className='text-lg tablet:text-4xl' style={{fontFamily:'Montserrat'}}>Our vision is lorem ipsum mipsum jispum.</h3>
