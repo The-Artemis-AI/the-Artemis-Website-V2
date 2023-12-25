@@ -8,7 +8,7 @@ import PersonCard from '../PersonCard'
 
 function TeamSection() {
   return (
-    <div className='w-full min-h-full  mt-5 p-10 px-20'>
+    <div className='w-full min-h-full  mt-5 p-10  tablet:px-20'>
     <h3 className='text-4xl mb-10'>Our Team</h3>
 
     <div className='flex flex-row flex-wrap w-full h-full mx-auto justify-start'>
