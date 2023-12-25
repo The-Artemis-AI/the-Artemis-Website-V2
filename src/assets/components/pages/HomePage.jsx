@@ -11,6 +11,9 @@ import ProductsSection from '../HomeSections/ProductsSection'
 import AboutUsSection from '../HomeSections/AboutUsSection'
 import FAQSection from '../HomeSections/FAQSection'
 import PageTopSection from '../HomeSections/PageTopSection'
+
+
+// const URL =process.env.PUBLIC_URL
 function HomePage() {
 
   return (
