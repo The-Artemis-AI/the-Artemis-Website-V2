@@ -34,7 +34,6 @@ function App() {
     <Route path="/the-Artemis-Website-V2/talent" element={<TalentPage/>}/>
     <Route path="/the-Artemis-Website-V2/*" element={<ErrorPage/>}/>
     <Route path="/error" element={<ErrorPage/>}/>
-    <Route path="*" element={<ErrorPage/>}/>
     </Routes>
     </Router>
   )
