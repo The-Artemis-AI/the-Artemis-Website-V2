@@ -7,7 +7,7 @@ import Navbar from '../Navbar'
 import { useParams } from 'react-router-dom'
 import { FaArrowLeft } from 'react-icons/fa'
 import Image2 from "../../images/deepmind.jpg"
-
+ 
 function capitalize(word) {
   return word.charAt(0).toUpperCase() + word.slice(1);
 }

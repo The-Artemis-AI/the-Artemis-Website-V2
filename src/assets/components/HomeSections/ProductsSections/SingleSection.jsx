@@ -1,5 +1,4 @@
-import React, {useState} from 'react'
-import { useParams } from 'react-router-dom';
+import {useState} from 'react'
 import Image from "../../../images/media.png"
 import Hopkins from "../../../images/john_hopkins.jpg"
 import { FaArrowRight } from 'react-icons/fa';
@@ -24,15 +23,15 @@ function SingleSection(props) {
     <div className='w-[50%]  '>
     <div className='flex flex-col mb-5'> 
     <h3 className='text-lg text-black font-semibold' style={{fontFamily:"Montserrat"}}>{props.title}</h3>
-    <p className='text-sm mt-[-5px]' style={{}}> Machine Learning</p>
+    <p className='text-sm bigphone:text-base mt-[-5px]' style={{}}> Machine Learning</p>
     
     </div>
     <h3 className='text-lg text-gray-400 my-2' style={{fontFamily:"Montserrat"}}>Brief</h3>
-    <p className='text-sm my-2' style={{}}> {serviceContent.mainTitle}</p>
+    <p className='text-sm bigphone:text-base my-2' style={{}}> {serviceContent.mainTitle}</p>
     <p className='text-lg text-gray-400 my-2' style={{fontFamily:"Montserrat", fontWeight:500}}> Impact</p>
-    <p className='text-sm  my-2' style={{}}> {serviceContent?.impact}</p>
+    <p className='text-sm bigphone:text-base  my-2' style={{}}> {serviceContent?.impact}</p>
     <h3 className='text-lg text-gray-400 my-2' style={{fontFamily:"Montserrat", fontWeight:500}}> Solution and Impact</h3>
-    <p className='text-sm  my-2' style={{}}> {serviceContent?.solution}</p>
+    <p className='text-sm bigphone:text-base  my-2' style={{}}> {serviceContent?.solution}</p>
     
     <h3 className='text-lg text-gray-400 my-2' style={{fontFamily:"Montserrat", fontWeight:500}}> Clients And Partners</h3>
 
