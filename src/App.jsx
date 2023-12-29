@@ -1,4 +1,4 @@
-import {HashRouter as Router, Routes, Route, Outlet,  } from 'react-router-dom'
+import {BrowserRouter as Router, Routes, Route, Outlet,  } from 'react-router-dom'
 import { lazy, Suspense} from 'react'
 import HomePage from './assets/components/pages/HomePage'
 import ProductsPage from "./assets/components/pages/ProductsPage"

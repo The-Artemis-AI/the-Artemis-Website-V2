@@ -4,7 +4,7 @@ import Image from "../../../images/media.png"
 import Hopkins from "../../../images/john_hopkins.jpg"
 import { FaArrowRight } from 'react-icons/fa';
 
-function SingleSection() {
+function SingleSection(props) {
     const [serviceContent, setServiceContent] = useState({
         
          Image:Image,
@@ -19,11 +19,11 @@ function SingleSection() {
   return (
     <div className='m-0 w-full min-h-[100vh] px-20'>
 
-    <img src={Image} alt="image"  className='w-full h-[30%] object-cover'/>
+    <img src={Image} alt="image"  className='w-full h-[20%] object-cover'/>
     <div className='py-10 flex flex-row justify-between'>
     <div className='w-[50%]  '>
     <div className='flex flex-col mb-5'> 
-    <h3 className='text-lg text-black font-semibold' style={{fontFamily:"Montserrat"}}>Servin 1.0</h3>
+    <h3 className='text-lg text-black font-semibold' style={{fontFamily:"Montserrat"}}>{props.title}</h3>
     <p className='text-sm mt-[-5px]' style={{}}> Machine Learning</p>
     
     </div>

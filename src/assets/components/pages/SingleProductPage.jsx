@@ -6,6 +6,7 @@ import Footer from '../Footer'
 import Navbar from '../Navbar'
 import { useParams } from 'react-router-dom'
 import { FaArrowLeft } from 'react-icons/fa'
+import Image2 from "../../images/deepmind.jpg"
 
 function capitalize(word) {
   return word.charAt(0).toUpperCase() + word.slice(1);
@@ -27,14 +28,17 @@ function SingleProductPage() {
      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia quo natus voluptates repudi.Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
     </div>
     </div>
-    <div className='w-full h-[30%] grayscale-[100] bg-gray-200 my-10' style={{backgroundImage:`url(${Image})`,  backgroundPosition:"center center", backgroundSize:"cover", backgroundRepeat:"no-repeat"}}> </div>
+    <div className='w-full h-[20%] grayscale-[100] bg-gray-200 my-10' style={{backgroundImage:`url(${Image})`,  backgroundPosition:"center center", backgroundSize:"cover", backgroundRepeat:"no-repeat"}}> </div>
     </div>
     </div>
     <a href= "/the-Artemis-Website-V2/products" className='flex flex-row items-center space-x-5 my-10 px-20'>
     <FaArrowLeft/>
     <p className='text-xl '>Back to Product Page</p>
     </a>
-    <SingleSection/>
+    <SingleSection 
+    title={capitalize(productId)}
+    Image={Image2}
+    />
     <ContactSection/>
     <Footer/>
     </div>
