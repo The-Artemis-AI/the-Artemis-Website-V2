@@ -118,11 +118,11 @@ function ExploreServisesSection() {
     <div className='w-[100%] tablet:w-[65%]  '>
     <img src={serviceContent.Image} alt="service picture" className='mb-3 h-[200px] w-full' style={{resize:"contain", objectFit:"cover"}}/>
     <h3 className='text-lg text-gray-400 my-2' style={{fontFamily:"Montserrat"}}>{serviceContent.title}</h3>
-    <p className='text-sm my-2' style={{}}> {serviceContent.mainTitle}</p>
+    <p className='text-sm tablet:text-base my-2' style={{}}> {serviceContent.mainTitle}</p>
     <p className='text-lg text-gray-400 my-2' style={{fontFamily:"Montserrat", fontWeight:500}}> Impact</p>
-    <p className='text-sm  my-2' style={{}}> {serviceContent.impact}</p>
+    <p className='text-sm tablet:text-base  my-2' style={{}}> {serviceContent.impact}</p>
     <h3 className='text-lg text-gray-400 my-2' style={{fontFamily:"Montserrat", fontWeight:500}}> Solution and Impact</h3>
-    <p className='text-sm  my-2' style={{}}> {serviceContent.solution}</p>
+    <p className='text-sm tablet:text-base  my-2' style={{}}> {serviceContent.solution}</p>
     
     <h3 className='text-lg text-gray-400 my-2' style={{fontFamily:"Montserrat", fontWeight:500}}> Clients And Partners</h3>
 

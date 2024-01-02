@@ -36,8 +36,10 @@ function App() {
     <Route exact path="/the-Artemis-Website-V2/services" element={<ServicesPage/>}/>
     <Route exact path="/the-Artemis-Website-V2/products/#/:productId" element={<SingleProductPage />} />
     <Route exact path="/the-Artemis-Website-V2/products/:productId" element={<SingleProductPage />} />
+    <Route exact path="/the-Artemis-Website-V2/products/servin" element={<SingleProductPage />} />
     <Route exact path="/the-Artemis-Website-V2/media" element={<MediaPage/>}/>
     <Route exact path="/the-Artemis-Website-V2/media/#/:mediaId" element={<SingleMediaPage />} />
+    <Route exact path="/the-Artemis-Website-V2/media/article1" element={<SingleMediaPage />} />
     <Route exact path="/the-Artemis-Website-V2/media/:mediaId" element={<SingleMediaPage />} />
     <Route exact path="/the-Artemis-Website-V2/about" element={<AboutUsPage/>}/>
     <Route exact path="/the-Artemis-Website-V2/talent" element={<TalentPage/>}/>

@@ -56,31 +56,31 @@ function OurBlogSection() {
  
    </div>
     <BlogCard 
-    Link="media1"
+    Link="article1"
     Image={Image2}
     title={"The Artemis Ai Company"}
     subtitle="Lorem ipsum dolor sit amet consectetur. In eu aliquet orci ac risus lobortis aenean diam aenean."
     />
     <BlogCard 
-    Link="media1"
+    Link="article1"
     Image={Image3}
     title={"The Artemis Ai Company"}
     subtitle="Lorem ipsum dolor sit amet consectetur. In eu aliquet orci ac risus lobortis aenean diam aenean."
     />
     <BlogCard
-    Link="media1"
+    Link="article1"
     Image={Image2}
     title={"The Artemis Ai Company"}
     subtitle="Lorem ipsum dolor sit amet consectetur. In eu aliquet orci ac risus lobortis aenean diam aenean."
     />
     <BlogCard
-    Link="media1"
+    Link="article1"
     Image={Image}
     title={"The Artemis Ai Company"}
     subtitle="Lorem ipsum dolor sit amet consectetur. In eu aliquet orci ac risus lobortis aenean diam aenean."
     />
     <BlogCard 
-    Link="media1"
+    Link="article1"
     Image={Image2}
     title={"The Artemis Ai Company"}
     subtitle="Lorem ipsum dolor sit amet consectetur. In eu aliquet orci ac risus lobortis aenean diam aenean."
