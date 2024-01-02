@@ -1,5 +1,3 @@
-import { useState } from 'react'
-
 import "../../../App.css"
 import HeroSection from '../HomeSections/HeroSection'
 import Footer from '../Footer'
@@ -10,14 +8,13 @@ import OfferSection from '../OfferSection'
 import ProductsSection from '../HomeSections/ProductsSection'
 import AboutUsSection from '../HomeSections/AboutUsSection'
 import FAQSection from '../HomeSections/FAQSection'
-import PageTopSection from '../HomeSections/PageTopSection'
-
 
 // const URL =process.env.PUBLIC_URL
 function HomePage() {
 
   return (
     <div className='p-0 m-0 w-full h-[100vh]'>
+
     <HeroSection/>
     <AboutUsSection/>
     <ProductsSection/>
@@ -25,7 +22,7 @@ function HomePage() {
     <OurClientsSection/>
     <TestimonialsSection/>
     <FAQSection/>
-    <ContactSection/>
+    <ContactSection id="contact"/>
     <Footer/>
     </div>
   )

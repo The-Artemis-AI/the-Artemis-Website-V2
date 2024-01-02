@@ -10,44 +10,95 @@ import Image3 from "../../images/media.png"
 
 function ExploreServisesSection() {
     const [service, setServise] = useState("service1")
-    const [serviceContent, setServiceContent] = useState({
-        Image:Image,
-        title:"Automated Machine Learning",
-        mainTitle:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
-        impact:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-        solution:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-        clients:[{name:"Birmingham", Logo:Birmingham}, {name:"Hopkins", Logo:Hopkins}]
-    })
-
-    const setService2 =()=>{
-        setServiceContent({
+    const serviceData = [
+        {
+            Image:Image,
+            title:"Automated Machine Learning",
+            mainTitle:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+            impact:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            solution:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            clients:[{name:"Birmingham", Logo:Birmingham}, {name:"Hopkins", Logo:Hopkins}]
+        },
+        {
             Image:Image2,
             title:"Predictive Analytics",
             mainTitle:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
             impact:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
             solution:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
             clients:[{name:"Manhattan", Logo:Manhattan},{name:"Nhgri", Logo:Nhgri}, {name:"Hopkins", Logo:Hopkins}]
-        })
-    }
-    const setService3 =()=>{
-        setServiceContent({
+        },
+        {
             Image:Image3,
             title:"Generative AI",
             mainTitle:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
             impact:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
             solution:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
             clients:[{name:"Mckinsey", Logo:Mckinsey},{name:"Nhgri", Logo:Nhgri}]
-        })
-    }
-    const setService4 =()=>{
-        setServiceContent({
+        },
+        {
             Image:Image,
             title:"AI Consulting",
             mainTitle:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
             impact:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
             solution:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
             clients:[{name:"Hopkins", Logo:Hopkins}]
-        })
+        },
+        {
+            Image:Image2,
+            title:"Cloud Consulting",
+            mainTitle:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+            impact:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            solution:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            clients:[{name:"Hopkins", Logo:Hopkins}]
+        },
+        {
+            Image:Image3,
+            title:"AI Software",
+            mainTitle:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+            impact:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            solution:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            clients:[{name:"Hopkins", Logo:Hopkins}]
+        },
+        {
+            Image:Image,
+            title:"Research",
+            mainTitle:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+            impact:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            solution:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            clients:[{name:"Hopkins", Logo:Hopkins}]
+        },
+        {
+            Image:Image2,
+            title:"Data Science",
+            mainTitle:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+            impact:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            solution:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            clients:[{name:"Hopkins", Logo:Hopkins}]
+        },
+
+    ]
+    const [serviceContent, setServiceContent] = useState(serviceData[0])
+
+    const setService2 =()=>{
+        setServiceContent(serviceData[1])
+    }
+    const setService3 =()=>{
+        setServiceContent(serviceData[2])
+    }
+    const setService4 =()=>{
+        setServiceContent(serviceData[3])
+    }
+    const setService5 =()=>{
+        setServiceContent(serviceData[4])
+    }
+    const setService6 =()=>{
+        setServiceContent(serviceData[5])
+    }
+    const setService7 =()=>{
+        setServiceContent(serviceData[6])
+    }
+    const setService8 =()=>{
+        setServiceContent(serviceData[7])
     }
 
   return (
@@ -59,9 +110,10 @@ function ExploreServisesSection() {
     <p onClick={()=>{setServise("service2");setService2() }} className='tablet:text-lg hover:scale-105 delay-450 ease-in-out transition-all cursor-pointer' style={{color:(service === "service2")? "black":"gray" ,fontWeight:(service === "service2")? 600:400, fontFamily:"Montserrat"}}>Predictive Analytics</p>
     <p onClick={()=>{setServise("service3");setService3() }} className='tablet:text-lg hover:scale-105 delay-450 ease-in-out transition-all cursor-pointer' style={{color:(service === "service3")? "black":"gray" ,fontWeight:(service === "service3")? 600:400, fontFamily:"Montserrat"}}>Generative AI</p>
     <p onClick={()=>{setServise("service4");setService4() }} className='tablet:text-lg hover:scale-105 delay-450 ease-in-out transition-all cursor-pointer' style={{color:(service === "service4")? "black":"gray" ,fontWeight:(service === "service4")? 600:400, fontFamily:"Montserrat"}}>AI Consulting</p>
-    <p className='tablet:text-lg hover:scale-105 delay-450 ease-in-out transition-all cursor-pointer' style={{color:(service === "service5")? "black":"gray" ,fontWeight:(service === "service5")? 600:400, fontFamily:"Montserrat"}}>Cloud Solutions</p>
-    <p className='tablet:text-lg hover:scale-105 delay-450 ease-in-out transition-all cursor-pointer' style={{color:(service === "service6")? "black":"gray" ,fontWeight:(service === "service6")? 600:400, fontFamily:"Montserrat"}}>AI Software</p>
-    <p className='tablet:text-lg hover:scale-105 delay-450 ease-in-out transition-all cursor-pointer' style={{color:(service === "service7")? "black":"gray" ,fontWeight:(service === "service7")? 600:400, fontFamily:"Montserrat"}}>Data Engineering</p>
+    <p onClick={()=>{setServise("service5");setService5() }} className='tablet:text-lg hover:scale-105 delay-450 ease-in-out transition-all cursor-pointer' style={{color:(service === "service5")? "black":"gray" ,fontWeight:(service === "service5")? 600:400, fontFamily:"Montserrat"}}>Cloud Solutions</p>
+    <p onClick={()=>{setServise("service6");setService6() }} className='tablet:text-lg hover:scale-105 delay-450 ease-in-out transition-all cursor-pointer' style={{color:(service === "service6")? "black":"gray" ,fontWeight:(service === "service6")? 600:400, fontFamily:"Montserrat"}}>AI Software</p>
+    <p onClick={()=>{setServise("service7");setService7() }} className='tablet:text-lg hover:scale-105 delay-450 ease-in-out transition-all cursor-pointer' style={{color:(service === "service7")? "black":"gray" ,fontWeight:(service === "service7")? 600:400, fontFamily:"Montserrat"}}>Research</p>
+    <p onClick={()=>{setServise("service8");setService8() }} className='tablet:text-lg hover:scale-105 delay-450 ease-in-out transition-all cursor-pointer' style={{color:(service === "service8")? "black":"gray" ,fontWeight:(service === "service8")? 600:400, fontFamily:"Montserrat"}}>Data Science</p>
     </div>
     <div className='w-[100%] tablet:w-[65%]  '>
     <img src={serviceContent.Image} alt="service picture" className='mb-3 h-[200px] w-full' style={{resize:"contain", objectFit:"cover"}}/>

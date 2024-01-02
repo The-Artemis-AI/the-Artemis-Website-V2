@@ -1,8 +1,8 @@
 import React, {useState, useEffect} from 'react'
 
-function ContactSection() {
+function ContactSection(props) {
   return (
-    <div className='py-20 w-full px-5 bigphone:px-10 phone:px-20 bg-white items-center flex flex-col flex-wrap justify-between tablet:flex-row'>
+    <div id={"contact"} className='py-20 w-full px-5 bigphone:px-10 phone:px-20 bg-white items-center flex flex-col flex-wrap justify-between tablet:flex-row'>
     <div className='w-full tablet:w-[70%] '>
     <h1 className='text-2xl bigphone:text-4xl tablet:text-5xl mb-3'>Have a Project? Reach Out</h1>
     <form>
