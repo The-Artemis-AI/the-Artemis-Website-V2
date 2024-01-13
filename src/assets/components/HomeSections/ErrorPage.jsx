@@ -1,6 +1,6 @@
 // import React from 'react'
 import { IoIosArrowRoundForward } from 'react-icons/io'
-import { useHistory } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import Robot from "../../images/robot-assistant-sad.webp"
 import { Link } from 'react-router-dom'
 import ContactSection from '../ContactSection'
@@ -9,10 +9,10 @@ import Navbar from '../Navbar'
 
 function ErrorPage() {
 
-  let history = useHistory();
+  let navigate = useNavigate(); 
 
   function handleClick() {
-    history.goBack();
+    navigate(-1); 
   }
 
   return (
