@@ -1,8 +1,8 @@
 import React from "react";
-import Manhattan from "../../images/manhattan.png"
-import Mckinsey from "../../images/mckinsey.png"
-import Birmingham from "../../images/birmingham.png"
-import Hopkins from "../../images/john_hopkins.jpg"
+import Manhattan from "../../images/manhattan.webp"
+import Mckinsey from "../../images/mckinsey.webp"
+import Birmingham from "../../images/birmingham.webp"
+import Hopkins from "../../images/john_hopkins.webp"
 import Genome from "../../images/nhgri.svg"
 import { IoIosArrowRoundForward } from "react-icons/io";
 import { Link } from "react-router-dom";
@@ -10,7 +10,7 @@ import { Link } from "react-router-dom";
 
 function AboutUsSection() {
   return (
-    <div className="w-full phone:h-full bigphone:px-20 p-10 mx-auto bg-white items-center flex flex-col">
+    <div className="w-full phone:h-auto bigphone:px-20 p-10 mx-auto bg-white items-center flex flex-col">
     <div className="slider bigphone:h-[20%] w-full tablet:w-[80%] mx-auto flex flex-row items-center justify-between">
     <img src={Mckinsey} alt="McKinsey" className="w-12 h-8 phone:w-20 phone:h-10 tablet:h-20 tablet:w-40 object-contain grayscale"/>
     <img src={Birmingham} alt="Birmingham" className="w-12 h-8 phone:w-20 phone:h-10 tablet:h-20 tablet:w-40 object-contain grayscale"/>

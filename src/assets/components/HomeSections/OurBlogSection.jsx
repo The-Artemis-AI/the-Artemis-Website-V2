@@ -1,6 +1,6 @@
-import Image from "../../images/image.png"
-import Image2 from "../../images/media.png"
-import Image3 from "../../images/deepmind.jpg"
+import Image from "../../images/image.webp"
+import Image2 from "../../images/media.webp"
+import Image3 from "../../images/deepmind.webp"
 import BlogCard from '../BlogCard'
 import { IoMdArrowDropdown } from "react-icons/io";
 import { VscClose } from "react-icons/vsc";

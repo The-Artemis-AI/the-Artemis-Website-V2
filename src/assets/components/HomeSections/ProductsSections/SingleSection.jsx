@@ -1,6 +1,6 @@
 import {useState} from 'react'
-import Image from "../../../images/media.png"
-import Hopkins from "../../../images/john_hopkins.jpg"
+import Image from "../../../images/media.webp"
+import Hopkins from "../../../images/john_hopkins.webp"
 import { FaArrowRight } from 'react-icons/fa';
 
 function SingleSection(props) {

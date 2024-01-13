@@ -16,7 +16,7 @@ function ServiceCard(props) {
     <div className='my-5'>
     <h3 className='text-2xl w-[70%] font-bold'>{props.title}</h3>
     <h3 className='text-2xl w-[70%] font-bold'>{props.title2}</h3>
-    <p className='text-sm my-2'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia quo natus voluptates repudi. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    <p className='text-sm my-2'>{props.content}</p>
     </div>
   
     </Link> 

@@ -1,7 +1,7 @@
 import React from 'react'
-import Image from "../../images/person.jpg"
+import Image from "../../images/person.webp"
 import Image2 from "../../images/woman.svg"
-import Image3 from "../../images/deepmind.jpg"
+import Image3 from "../../images/deepmind.webp"
 import PersonCard from '../PersonCard'
 
 

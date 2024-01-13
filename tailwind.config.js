@@ -14,7 +14,8 @@ export default {
       screens:{
         phone:"450px",
         bigphone:"650px",
-        tablet:"860px"
+        tablet:"860px",
+        laptop:"1200px",
       }
     },
   },

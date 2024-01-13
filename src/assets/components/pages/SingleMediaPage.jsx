@@ -1,5 +1,5 @@
 import React from 'react'
-import Image from "../../images/sproduct2.png"
+import Image from "../../images/sproduct2.webp"
 import SingleSection from '../HomeSections/ProductsSections/SingleSection'
 import ContactSection from '../ContactSection'
 import Footer from '../Footer'

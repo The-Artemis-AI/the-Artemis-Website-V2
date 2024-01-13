@@ -1,5 +1,5 @@
 import React from 'react'
-import Image from "../images/media.png"
+import Image from "../images/media.webp"
 import { Link } from 'react-router-dom'
 
 function PersonCard(props) {

@@ -8,6 +8,7 @@ import MediaPage from "./assets/components/pages/MediaPage"
 import ErrorPage from "./assets/components/HomeSections/ErrorPage"
 import AboutUsPage from "./assets/components/pages/AboutUsPage"
 import TalentPage from "./assets/components/pages/TalentPage"
+import FAQPage from './assets/components/pages/FAQPage'
 import "./App.css"
 import { useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
@@ -33,6 +34,7 @@ function App() {
     <Route index  path="/" element={<HomePage />}/>
     <Route  path="/the-Artemis-Website-V2/" element={<HomePage />}/>
     <Route exact path="/the-Artemis-Website-V2/services" element={<ServicesPage/>}/>
+    <Route exact path="/the-Artemis-Website-V2/FAQ" element={<FAQPage/>}/>
     
     <Route exact path="/the-Artemis-Website-V2/products" element={<ProductsPage/>}/>
     <Route exact path="/the-Artemis-Website-V2/products/servin" element={<SingleProductPage />} />

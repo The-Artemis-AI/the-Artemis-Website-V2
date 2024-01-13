@@ -1,4 +1,4 @@
-import Hero from "../../images/hero1.png"
+import Hero from "../../images/hero1.webp"
 import { IoIosArrowRoundForward } from "react-icons/io";
 import Navbar from '../Navbar';
 import { Link } from 'react-router-dom';
@@ -19,7 +19,7 @@ function HeroSection() {
 <IoIosArrowRoundForward className="bg-gradient-to-r from-blue-500 to-green-500 text-white rounded-full w-6 h-6 -rotate-45" />
 </button>
 </div>
-<div className='w-[110%] tablet:w-[50%] h-[115%] -translate-y-[0%] z-10' style={{backgroundImage:`url(${Hero})`, backgroundPosition:"center center", backgroundSize:"cover", backgroundRepeat:"no-repeat"}}></div>
+<div className='w-[110%] tablet:w-[50%] h-[105%] -translate-y-[0%] z-10' style={{backgroundImage:`url(${Hero})`, backgroundPosition:"center center", backgroundSize:"cover", backgroundRepeat:"no-repeat", resizeMode:"cover"}}></div>
     </div>
     </div>
     

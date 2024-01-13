@@ -1,6 +1,6 @@
 import React from "react";
 import Navbar from "../Navbar";
-import Deepmind from "../../images/deepmind.jpg";
+import Deepmind from "../../images/deepmind.webp";
 
 function PageTopSection(props) {
   return (
@@ -27,13 +27,12 @@ function PageTopSection(props) {
         <div
           className="w-full h-[200px] bigphone:h-[300px] tablet:h-[65%] bg-gray-200"
           style={{
-            backgroundImage: `url(${props.Image})`,
+            backgroundImage: `url(${Deepmind})`,
             backgroundPosition: "center center",
             backgroundSize: "cover",
             backgroundRepeat: "no-repeat",
           }}
         >
-          {" "}
         </div>
       </div>
     </div>

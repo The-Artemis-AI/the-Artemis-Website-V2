@@ -1,6 +1,6 @@
 import React from 'react'
 import PageTopSection from '../HomeSections/PageTopSection'
-import Image from "../../images/products.png"
+import Image from "../../images/products.webp"
 import ContactSection from '../ContactSection'
 import Footer from '../Footer'
 import OurProductSection from '../HomeSections/ProductsSections/OurProductSection'

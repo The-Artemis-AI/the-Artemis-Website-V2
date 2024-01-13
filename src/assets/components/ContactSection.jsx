@@ -43,8 +43,8 @@ function ContactSection(props) {
     <div className='w-[100%] my-1 bigphone:my-4 tablet:w-[25%] h-[70%] bg-blacky px-5 py-10 space-y-4 flex flex-col justify-evenly'>
     <p className='text-sm text-gray-300 text-start'>Fell free to send us an email or give us a call and we would get back to you as soon as possible. </p>
     <div>
-    <div className='flex flex-row space-x-1'><p className='text-sm text-gray-200 text-start font-semibold'>Email:</p><p className='text-sm text-gray-300 text-start'>info.artemis.com</p></div>
-    <div className='flex flex-row space-x-1'><p className='text-sm text-gray-200 text-start font-semibold'>Phone:</p><p className='text-sm text-gray-300 text-start'>+2507453678</p></div>
+    <div className='flex flex-row space-x-1'><p className='text-sm text-gray-200 text-start font-semibold'>Email:</p><p className='text-sm text-gray-300 text-start'>team.artemisai.com</p></div>
+    <div className='flex flex-row space-x-1'><p className='text-sm text-gray-200 text-start font-semibold'>Phone:</p><p className='text-sm text-gray-300 text-start'> +250 798 971 331</p></div>
 
     </div>
     </div>

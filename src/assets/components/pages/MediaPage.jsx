@@ -1,4 +1,4 @@
-import Image from "../../images/media.png"
+import Image from "../../images/media.webp"
 import PageTopSection from "../HomeSections/PageTopSection"
 import ContactSection from "../ContactSection"
 import Footer from "../Footer"

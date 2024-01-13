@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 import { useParams } from 'react-router-dom';
-import Image from "../../images/media.png"
-import Hopkins from "../../images/john_hopkins.jpg"
+import Image from "../../images/media.webp"
+import Hopkins from "../../images/john_hopkins.webp"
 import { FaArrowRight } from 'react-icons/fa';
 
 function MediaSingleSection() {
@@ -36,9 +36,9 @@ function MediaSingleSection() {
     
     <div className='flex flex-col items-start ml-10'>
     {
-        serviceContent.bullets?.map((item)=>{
+        serviceContent.bullets?.map((item, index)=>{
             return(
-                <div className=''>
+                <div className='' key={index}>
                 
             <h3 className=' text-gray-500 my-2 ' style={{fontFamily:"Montserrat"}}>&#8226; {item.title}</h3>
                 <p className='text-sm bigphone:text-lg my-2'>{item.content}</p>

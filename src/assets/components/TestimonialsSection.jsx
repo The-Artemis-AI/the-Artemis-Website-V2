@@ -1,34 +1,39 @@
 import React, {useState} from 'react'
 import { FaArrowLeft } from 'react-icons/fa'
 import { FaArrowRight } from 'react-icons/fa'
-import Manhattan from "../images/manhattan-bg.png"
-import mckinsey from "../images/mckinsey-g.png"
-import johnHopkins from "../images/john_hopkins-b.png"
+import Manhattan from "../images/manhattan-bg.webp"
+import mckinsey from "../images/mckinsey-g.webp"
+import johnHopkins from "../images/john_hopkins-b.webp"
+import MinICT from "../images/MINICT.webp"
+import oxford from "../images/oxford.webp"
+import machester from "../images/manchester.webp"
+import apiday from "../images/apiday.webp"
+
 
 const content = [
 {
 key:0,
 title:"University of Machester, UK",
-description:`Conducted a whole Scale landscape assessment ot the state of NLP with respect to SDGs and ethical practices related to data collection and application of open source projects.`,
-image:Manhattan,
+description:`Our collaboration with this AI firm was transformative. They conducted a comprehensive assessment of NLP's state concerning Sustainable Development Goals (SDGs) and scrutinized ethical practices in data collection and the use of open-source projects. Their insights were profound and actionable, paving the way for more ethical and impactful AI applications in our projects.`,
+image:machester,
 },
 {
 key:1,
-title:"Oxford",
-description:`Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia quo natus voluptates repudi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia quo natus voluptates repudi`,
-image:johnHopkins,
+title:"University of Oxford",
+description:`This team’s expertise in NLP and AI ethics is unparalleled. They performed an extensive landscape assessment focused on NLP, aligning with SDGs and ethical data practices. Their analysis and recommendations have been crucial in guiding our open-source projects, ensuring they are innovative and ethically sound.`,
+image:oxford,
 },
 {
 key:2,
-title:"Rwanda Government",
-description:`Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia quo natus voluptates repudi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia quo natus voluptates repudi`,
-image:Manhattan,
+title:"Rwanda Ministry of ICT & Innovation",
+description:`Their data-driven approach was a game-changer for our environmental project. They meticulously analyzed recycling habits and then crafted strategies that have significantly boosted our recycling initiatives. Their insights and recommendations were not just data-centric but also incredibly practical and effective in driving real-world changes.`,
+image:MinICT,
 },
 {
 key:3,
-title:"The Artemis Company",
-description:`Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia quo natus voluptates repudi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia quo natus voluptates repudi`,
-image:johnHopkins,
+title:"APIDAY",
+description:`Creating a chatbot with their team has revolutionized our customer support. The bot’s ability to swiftly retrieve information from our support documents has enhanced our agents' capabilities in assisting clients. It's not just a tool; it's like having an extra, highly efficient team member who's always ready to help.`,
+image:apiday,
 },
 ]
 function TestimonialsSection() {
@@ -50,7 +55,11 @@ function TestimonialsSection() {
     <div className='w-full tablet:w-[60%] flex flex-col justify-between'>
     <div className='space-y-10 bigphone:w-[60%]'>
         <h3 className='text-5xl '>Our Testimonials</h3>
-        <p className='tablet:text-base'>The phrase beauty is in the hands of the beholder is an expression that means that what is considered beautiful is subjective and depends on individual perceptions and preferences. It suggests that different people may have different definitions of beauty and that there is no objective standard for what is considered beautiful. </p>
+        <div>
+                <p className='tablet:text-base'>Client Success Stories Powered by Our AI Expertise</p>
+        <p className='tablet:text-base'>Our success is defined not just by completed projects but by the impact we bring to the world. With unwavering determination, we see AI as a force to reshape industries, solve global challenges, and improve lives, and we're dedicated to pushing the boundaries of innovation for a more sustainable and equitable future.</p>
+        </div>
+
     </div>
     <div className='flex flex-row space-x-5'>
     <button onClick={()=>handlePrevSlide()} type='button' className='p-3 rounded-full hover:bg-gray-300 focus:bg-slate-500'>
@@ -75,7 +84,7 @@ function TestimonialsSection() {
       </div>
     ))}
   </div>
-    <div className='w-32 h-10 bg-[#1D8C89]'> 
+    <div className='w-32 h-10 border border-[#1D8C89] bg-white'> 
     <img src={testimonial.image} alt={testimonial.title} className='w-full h-full object-contain grayscale-[100]'/>
     </div>
     </div>

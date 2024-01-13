@@ -1,5 +1,5 @@
 import React from 'react'
-import Image from "../images/hero1.png"
+import Image from "../images/hero1.webp"
 import { Link } from 'react-router-dom'
 
 function ProductsCard(props) {

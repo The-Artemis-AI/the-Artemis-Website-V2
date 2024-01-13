@@ -1,12 +1,12 @@
 import React from 'react'
-import Image from "../../images/sproduct2.png"
+import Image from "../../images/sproduct2.webp"
 import SingleSection from '../HomeSections/ProductsSections/SingleSection'
 import ContactSection from '../ContactSection'
 import Footer from '../Footer'
 import Navbar from '../Navbar'
 import { useParams } from 'react-router-dom'
 import { FaArrowLeft } from 'react-icons/fa'
-import Image2 from "../../images/deepmind.jpg"
+import Image2 from "../../images/deepmind.webp"
  
 function capitalize(word) {
   return word.charAt(0).toUpperCase() + word.slice(1);

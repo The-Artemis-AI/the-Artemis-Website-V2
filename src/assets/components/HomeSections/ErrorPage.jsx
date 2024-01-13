@@ -1,6 +1,6 @@
 // import React from 'react'
 import { IoIosArrowRoundForward } from 'react-icons/io'
-import Robot from "../../images/robot-assistant-sad.png"
+import Robot from "../../images/robot-assistant-sad.webp"
 import { Link } from 'react-router-dom'
 import ContactSection from '../ContactSection'
 import Footer from '../Footer'
