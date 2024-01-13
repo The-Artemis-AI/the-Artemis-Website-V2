@@ -12,8 +12,8 @@ function capitalize(word) {
   return word.charAt(0).toUpperCase() + word.slice(1);
 }
 function SingleProductPage() {
-  // const { productId } = useParams();
-  const productId  = "servin";
+  const { productId } = useParams();
+  // const productId  = "servin";
   return (
     <div className='p-0 m-0 w-full h-[100vh]'>
 

@@ -17,7 +17,7 @@ function Footer() {
     <p className='text-sm text-gray-400 text-start w-[70%]'>Building Your AI Ideas Into Reality</p>
     <p className='text-sm text-gray-400'>&copy; Copyright {year}</p>
     </div>
-    <div className='items-start justify-center flex flex-col w-[40%] phone:w-[15%] space-y-2 mb-5 phone:mb-0'>
+    <div className='items-start justify-center flex flex-col w-[40%] bigphone:w-[15%] space-y-2 mb-5 phone:mb-0'>
    <p className='text-gray-200 font-semibold text-sm'>Main</p>
     <p className='text-sm text-gray-400 text-start'>Home</p>
     <p className='text-sm text-gray-400 text-start'>Services</p>
@@ -25,24 +25,17 @@ function Footer() {
     <p className='text-sm text-gray-400 text-start'>Media</p>
     <p className='text-sm text-gray-400 text-start'>Talent</p>
     </div>
-    <div className='items-start justify-center flex flex-col w-[40%] phone:w-[15%] space-y-2 mb-5 phone:mb-0'>
+    <div className='items-start justify-center flex flex-col w-[40%] bigphone:w-[15%] space-y-2 mb-5 phone:mb-0'>
     <p className='text-gray-200 font-semibold text-sm'>Information</p>
      <p className='text-sm text-gray-400 text-start'>FAQ</p>
      <p className='text-sm text-gray-400 text-start'>About Us</p>
      <p className='text-sm text-gray-400 text-start'>Resources</p>
+     <p className='text-sm text-gray-400 text-start'>Terms</p>
+     <p className='text-sm text-gray-400 text-start'>Privacy Policy</p>
      <p className='text-sm text-gray-400 text-start'>Sitemap</p>
      </div>
 
-  
-
-    <div className='items-start justify-center flex flex-col w-[40%] phone:w-[15%] space-y-2 mb-5 phone:mb-0'>
-   <p className='text-gray-200 font-semibold text-sm'>Legal</p>
-    <p className='text-sm text-gray-400 text-start'>Terms</p>
-    <p className='text-sm text-gray-400 text-start'>Privacy Policy</p>
-    <p className='text-sm text-gray-400 text-start'>Sitemap</p>
-    
-    </div>
-    <div className='items-start justify-center flex flex-col w-[40%] phone:w-[20%]  space-y-2 mb-5 phone:mb-0'>
+    <div className='items-start justify-center flex flex-col w-[80%] bigphone:w-[20%] mt-4 bigphone:mt-1 space-y-2 mb-5 phone:mb-0'>
 <div className='flex flex-row space-x-2'>
 <Link to="https://www.linkedin.com/company/the-artemis-ai"><FaLinkedinIn className='text-gray-200'/></Link>
 <Link to="https://www.facebook.com/profile.php?id=100094257786765"><FaFacebookF className='text-gray-200'/></Link>

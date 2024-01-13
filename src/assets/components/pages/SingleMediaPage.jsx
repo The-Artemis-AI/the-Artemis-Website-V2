@@ -18,7 +18,7 @@ function SingleMediaPage
     <div className='p-0 m-0 w-full h-[100vh]'>
 
     <div className='w-full h-[80%] pb-5'>
-    <Navbar activeLink={"Products"}/>
+    <Navbar activeLink={"Media"}/>
     <div className=" w-full h-[90%] mt-10 mx-auto bg-white items-center flex flex-col justify-betwee">
         <div className='w-[85%] mx-auto flex flex-row items-center justify-between'>
     <div className='w-[80%] my-2'>

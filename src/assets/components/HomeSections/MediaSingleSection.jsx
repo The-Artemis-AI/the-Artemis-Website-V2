@@ -3,11 +3,11 @@ import { useParams } from 'react-router-dom';
 import Image from "../../images/media.webp"
 import Hopkins from "../../images/john_hopkins.webp"
 import { FaArrowRight } from 'react-icons/fa';
-
+import prompting from "../../images/prompting.webp"
 function MediaSingleSection() {
     const [serviceContent, setServiceContent] = useState({
         
-         Image:Image,
+         Image:prompting,
             title:"AI Consulting",
             paragraph1:"The ever-dynamic realm of AI research consistently serves up innovations. Among the latest is a groundbreaking method poised to redefine the capabilities of large language models (LLMs) such as GPT-4. This method, named 'analogical prompting,' is now making waves in the tech community, and for good reason.",
             paragraph2:"Analogical prompting is predicated on a novel idea: enabling LLMs to self-generate relevant examples or knowledge before attempting a problem. To grasp the significance of this, consider how humans tackle unfamiliar challenges. We often lean on past experiences or acquired knowledge. Analogical prompting essentially empowers machines to emulate this human-like recall mechanism.",
@@ -25,7 +25,7 @@ function MediaSingleSection() {
   return (
     <div className='m-0 w-full min-h-[100vh] px-10 bigphone:px-20'>
 
-    <img src={Image} alt="image"  className='w-full h-[30%] object-cover'/>
+    <img src={serviceContent.Image} alt="image"  className='w-full h-[50vh] object-cover bg-red-300'/>
     <div className='py-10 flex flex-col tablet:flex-row justify-between'>
     <div className='w-[100%] tablet:w-[50%]  flex flex-col '>
     <p className='text-sm bigphone:text-lg my-2' style={{}}> {serviceContent.paragraph1}</p>
