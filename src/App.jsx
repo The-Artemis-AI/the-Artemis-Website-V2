@@ -36,13 +36,21 @@ function App() {
     <Route exact path="/the-Artemis-Website-V2/services" element={<ServicesPage/>}/>
     <Route exact path="/the-Artemis-Website-V2/FAQ" element={<FAQPage/>}/>
     
-    <Route exact path="/the-Artemis-Website-V2/products" element={<ProductsPage/>}/>
-    <Route exact path="/the-Artemis-Website-V2/products/servin" element={<SingleProductPage />} />
+    {/*<Route exact path="/the-Artemis-Website-V2/products" element={<ProductsPage/>}/>
+  <Route exact path="/the-Artemis-Website-V2/products/servin" element={<SingleProductPage />} /> 
+
+   <Route exact path="/the-Artemis-Website-V2/products/#/:productId" element={<SingleProductPage />} />
+    <Route exact path="/the-Artemis-Website-V2/products/:productId" element={<SingleProductPage />} /> 
+*/}
     <Route exact path="/the-Artemis-Website-V2/media" element={<MediaPage/>}/>
     <Route exact path="/the-Artemis-Website-V2/media/article1" element={<SingleMediaPage />} />
 
-    <Route exact path="/the-Artemis-Website-V2/products/#/:productId" element={<SingleProductPage />} />
-    <Route exact path="/the-Artemis-Website-V2/products/:productId" element={<SingleProductPage />} /> 
+    
+    <Route exact path="/the-Artemis-Website-V2/products"  >
+    <Route path='' element={<ProductsPage />}/>
+    <Route path='servin' element={<SingleProductPage />}/>
+    </Route>
+   
     <Route exact path="/the-Artemis-Website-V2/media/#/:mediaId" element={<SingleMediaPage />} />
     <Route exact path="/the-Artemis-Website-V2/media/:mediaId" element={<SingleMediaPage />} /> 
 
