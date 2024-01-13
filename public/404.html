@@ -4,71 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Not Found</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body class="w-[100vw] h-full">
-    <div class="flex flex-col items-center justify-center">
+    <div class="container">
 
-        <button id="button" type="button" class="bg-blacky px-3 py-2 rounded-full"> <a href="rr.theartemisai.com" class="text-white">Go back to homepage</a></button>
-        <script>
-            let button = document.getElementById("button")
+        <img alt="logo" src="../src/assets/images/robot-assistant-sad.webp"   class="robot"/>
+        <p class="bigger">Oh no, we can't seem to find your Page</p>
+        <p class="smaller">Looks like our search algorith may have been underfit</p>
+        <a href="https://rr.theartemisai.com/"><button id="button" type="button"> Go back </button></a>
 
-            button.addEventListener("click", handleRedirect())
-            const status = 404;
-            const handleRedirect = ()=>{
-                if (window.location.pathname !== '/' && window.location.pathname !== '/index.html') {
-              window.location.replace('/');
-            }
-            
-            }
-          </script>
     </div>
 
-    <div class='bg-[#262626] w-full p-5 px-10 flex flex-row flex-wrap justify-between flex-1'>
-  
-        <div class='items-start justify-center flex flex-col w-[90%] mb-5 tablet:mb-0 tablet:w-[30%] space-y-2'>
-      <img alt="logo" src="../src/assets/images/logo-color.svg"  class='w-10 h-10'/>
-      <p class='text-sm text-gray-400 text-start w-[70%]'>Lorem ipsum dolor sit amet consecteur. In eu aliquet orcl risus l.</p>
-      <p class='text-sm text-gray-400'>&copy; Copyright 2023</p>
-      </div>
-      <div class='items-start justify-center flex flex-col w-[40%] phone:w-[15%] space-y-2 mb-5 phone:mb-0'>
-     <p class='text-gray-200 font-semibold text-sm'>Main</p>
-      <p class='text-sm text-gray-400 text-start'>Home</p>
-      <p class='text-sm text-gray-400 text-start'>Services</p>
-      <p class='text-sm text-gray-400 text-start'>Products</p>
-      <p class='text-sm text-gray-400 text-start'>Media</p>
-      <p class='text-sm text-gray-400 text-start'>Talent</p>
-      </div>
-      <div class='items-start justify-center flex flex-col w-[40%] phone:w-[15%] space-y-2 mb-5 phone:mb-0'>
-      <p class='text-gray-200 font-semibold text-sm'>Information</p>
-       <p class='text-sm text-gray-400 text-start'>FAQ</p>
-       <p class='text-sm text-gray-400 text-start'>About Us</p>
-       <p class='text-sm text-gray-400 text-start'>Resources</p>
-       <p class='text-sm text-gray-400 text-start'>Sitemap</p>
-       </div>
-  
-      <div class='items-start justify-center flex flex-col w-[40%] phone:w-[15%] space-y-2 mb-5 phone:mb-0'>
-     <p class='text-gray-200 font-semibold text-sm'>Legal</p>
-      <p class='text-sm text-gray-400 text-start'>Terms</p>
-      <p class='text-sm text-gray-400 text-start'>Privacy Policy</p>
-      <p class='text-sm text-gray-400 text-start'>Sitemap</p>
-      
-      </div>
-      <div class='items-start justify-center flex flex-col w-[40%] phone:w-[20%]  space-y-2 mb-5 phone:mb-0'>
-  <div class='flex flex-row space-x-2'>
-  <!-- <FaInstagram  class='text-gray-200'/>
-  <FaFacebookF class='text-gray-200'/>
-  <FaLinkedinIn class='text-gray-200'/> -->
-  </div>    
-  <div class='flex flex-row space-x-1'><p class='text-sm text-gray-200 text-start font-semibold'>Email:</p><p class='text-sm text-gray-400 text-start'>info.artemis.com</p></div>
-  <div class='flex flex-row space-x-1'><p class='text-sm text-gray-200 text-start font-semibold'>Phone:</p><p class='text-sm text-gray-400 text-start'>+2507453678</p></div>
-  
-  <div class='flex flex-col mt-3 space-y-1'>
-  <p class='text-sm text-gray-400 text-start'>KG 270 Kaarl House</p>
-  <p class='text-sm text-gray-400 text-start'>Kigali, Rwanda</p>
-  </div>
-      </div>
-  
-      
-      </div>
+
 </body>
 </html>

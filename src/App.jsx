@@ -1,4 +1,4 @@
-import {BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import {HashRouter as Router, Routes, Route } from 'react-router-dom'
 import HomePage from './assets/components/pages/HomePage'
 import ProductsPage from "./assets/components/pages/ProductsPage"
 import ServicesPage from "./assets/components/pages/ServicesPage"
@@ -43,6 +43,7 @@ function App() {
 
     <Route exact path="/the-Artemis-Website-V2/media" element={<MediaPage/>}/>
     <Route exact path="/the-Artemis-Website-V2/media/article1" element={<SingleMediaPage />} />
+    <Route exact path="/the-Artemis-Website-V2/media/#/article1" element={<SingleMediaPage />} />
 
 {/*    
   <Route exact path="/the-Artemis-Website-V2/products/servin" element={<SingleProductPage />} /> 
