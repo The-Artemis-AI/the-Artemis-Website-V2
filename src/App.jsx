@@ -35,6 +35,7 @@ function App() {
     <Route  path="/the-Artemis-Website-V2/" element={<HomePage />}/>
     <Route exact path="/the-Artemis-Website-V2/services" element={<ServicesPage/>}/>
     <Route exact path="/the-Artemis-Website-V2/FAQ" element={<FAQPage/>}/>
+    <Route exact path="/the-Artemis-Website-V2/servin" element={<SingleProductPage/>}/>
     
     {/*<Route exact path="/the-Artemis-Website-V2/products" element={<ProductsPage/>}/>
   <Route exact path="/the-Artemis-Website-V2/products/servin" element={<SingleProductPage />} /> 

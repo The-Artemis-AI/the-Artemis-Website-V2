@@ -37,10 +37,10 @@ function SingleSection(props) {
 
     <div className='flex flex-row items-center space-x-5'>
     {
-        serviceContent.clients?.map((item)=>{
+        serviceContent.clients?.map((item, index)=>{
             return(
 
-            <img src={item?.Logo} alt={item?.name} className='w-32 h-10 ' style={{objectFit:"contain"}}/>
+            <img key={index} src={item?.Logo} alt={item?.name} className='w-32 h-10 ' style={{objectFit:"contain"}}/>
       
             )
            
