@@ -25,7 +25,7 @@ function MediaSingleSection() {
   return (
     <div className='m-0 w-full min-h-[100vh] px-5 phone:px-10 bigphone:px-20'>
 
-    <img src={serviceContent.Image} alt="image"  className='w-full h-[50vh] object-cover bg-red-300'/>
+    <img src={serviceContent.Image} alt="image"  className='w-full h-[50vh] object-cover '/>
     <div className='py-10 flex flex-col tablet:flex-row justify-between'>
     <div className='w-[100%] tablet:w-[50%]  flex flex-col '>
     <p className='text-sm bigphone:text-lg my-2' style={{}}> {serviceContent.paragraph1}</p>
