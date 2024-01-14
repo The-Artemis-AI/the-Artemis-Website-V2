@@ -8,7 +8,7 @@ import { VscClose } from "react-icons/vsc";
 
 function OurBlogSection() {
   return (
-    <div className='w-full min-h-full  mt-5 p-10 px-20'>
+    <div className='w-full min-h-full  mt-5 p-5 bigphone:p-10 flex flex-col items-center justify-center'>
     <h3 className='text-4xl mb-10'>Check Out Our Blog</h3>
 
     <div className='flex flex-row flex-wrap w-full h-full mx-auto'>
@@ -58,32 +58,32 @@ function OurBlogSection() {
     <BlogCard 
     Link="article1"
     Image={Image2}
-    title={"The Artemis Ai Company"}
-    subtitle="Lorem ipsum dolor sit amet consectetur. In eu aliquet orci ac risus lobortis aenean diam aenean."
+    title={"Analogical Prompting: AI's New Learning Strategy"}
+    subtitle="The ever-dynamic realm of AI research consistently serves up innovations. Among the latest is a groundbreaking..."
     />
     <BlogCard 
     Link="article1"
     Image={Image3}
-    title={"The Artemis Ai Company"}
-    subtitle="Lorem ipsum dolor sit amet consectetur. In eu aliquet orci ac risus lobortis aenean diam aenean."
+      title={"Analogical Prompting: AI's New Learning Strategy"}
+    subtitle="The ever-dynamic realm of AI research consistently serves up innovations. Among the latest is a groundbreaking..."
     />
     <BlogCard
     Link="article1"
     Image={Image2}
-    title={"The Artemis Ai Company"}
-    subtitle="Lorem ipsum dolor sit amet consectetur. In eu aliquet orci ac risus lobortis aenean diam aenean."
+      title={"Analogical Prompting: AI's New Learning Strategy"}
+    subtitle="The ever-dynamic realm of AI research consistently serves up innovations. Among the latest is a groundbreaking..."
     />
     <BlogCard
     Link="article1"
     Image={Image}
-    title={"The Artemis Ai Company"}
-    subtitle="Lorem ipsum dolor sit amet consectetur. In eu aliquet orci ac risus lobortis aenean diam aenean."
+      title={"Analogical Prompting: AI's New Learning Strategy"}
+    subtitle="The ever-dynamic realm of AI research consistently serves up innovations. Among the latest is a groundbreaking..."
     />
     <BlogCard 
     Link="article1"
     Image={Image2}
-    title={"The Artemis Ai Company"}
-    subtitle="Lorem ipsum dolor sit amet consectetur. In eu aliquet orci ac risus lobortis aenean diam aenean."
+      title={"Analogical Prompting: AI's New Learning Strategy"}
+    subtitle="The ever-dynamic realm of AI research consistently serves up innovations. Among the latest is a groundbreaking..."
     />
 
     </div>

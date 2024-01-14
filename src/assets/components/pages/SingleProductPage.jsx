@@ -21,7 +21,7 @@ function SingleProductPage() {
     <div className='w-full h-[80%] pb-5'>
     <Navbar activeLink={"Products"}/>
     <div className=" w-full h-[90%] mt-10 mx-auto bg-white items-center flex flex-col justify-betwee">
-        <div className='bg-red-300 bigphone:w-[85%] mx-auto flex flex-col bigphone:flex-row items-center justify-between'>
+        <div className=' bigphone:w-[85%] mx-auto flex flex-col bigphone:flex-row items-center justify-between'>
     <div className='w-full bigphone:w-[50%] my-2 px-5 bigphone:px-1'>
      <p className='text-xl tablet:text-2xl my-2 bg-gradient-to-r from-green-500 to-blue-500 bg-clip-text text-transparent'> {capitalize(productId)}</p>
      <h3 className='text-3xl big-phone:text-5xl' style={{fontFamily:'Montserrat'}}>{capitalize(productId)}, Our<span className='underline' style={{fontFamily:'Montserrat'}}> First Official Product</span></h3>

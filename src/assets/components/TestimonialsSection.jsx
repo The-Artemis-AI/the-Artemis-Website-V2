@@ -61,7 +61,7 @@ function TestimonialsSection() {
         </div>
 
     </div>
-    <div className='flex flex-row space-x-5'>
+    <div className='flex flex-row space-x-5 my-2'>
     <button onClick={()=>handlePrevSlide()} type='button' className='p-3 rounded-full hover:bg-gray-300 focus:bg-slate-500'>
     <FaArrowLeft className='text-black'/>
     </button>
@@ -73,7 +73,7 @@ function TestimonialsSection() {
 
     <div className='w-full tablet:w-[40%] flex flex-col justify-between'>
     <div className='bg-[#F0FFB6] h-[80%] p-10 flex flex-col justify-evenly space-y-7'>
-    <p style={{fontFamily:"Montserrat"}}>{testimonial.description}</p>
+    <p style={{fontFamily:"Montserrat"}} className='text-sm bigphone:text-base'>{testimonial.description}</p>
     <p className='font-semibold' style={{fontFamily:"Montserrat"}}>{testimonial.title}</p>
     </div>
     <div className='flex flex-row justify-between h-[20%] mt-10'>

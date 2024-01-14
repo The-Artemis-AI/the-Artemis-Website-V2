@@ -82,7 +82,7 @@ function ExploreServisesSection() {
  
  
   return (
-    <div className='w-full min-h-full  mt-5 p-10 tablet:px-20'>
+    <div className='w-full min-h-full  mt-5 p-5 phone:p-10 tablet:px-20'>
     <h3 className='text-3xl phone:text-4xl my-2 mb-10'>Explore Our<br></br> Services</h3>
     <div className='flex flex-col tablet:flex-row justify-between'>
     <div className='w-[90%] tablet:w-[30%] mb-4 tablet:mb-1 space-y-1 tablet:space-y-4'>
