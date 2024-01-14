@@ -7,10 +7,10 @@ import Image3 from "../../../images/deepmind.webp"
 
 function OurProductSection() {
   return (
-    <div className='w-full min-h-full  mt-5 p-10 px-20'>
-    <h3 className='text-4xl mb-10'>Our Products</h3>
+    <div className='w-full min-h-full  mt-5 p-5 bigphone:p-10 bg-red-300'>
+    <h3 className='text-2xl bigphone:text-4xl mb-10'>Our Products</h3>
 
-    <div className='flex flex-row flex-wrap w-full h-full mx-auto'>
+    <div className='flex flex-row flex-wrap w-full h-full mx-auto items-center justify-center'>
     <ProductsCard 
     Image={Image}
     title={"Servin 1.0"}

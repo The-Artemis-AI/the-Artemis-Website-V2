@@ -59,7 +59,7 @@ function App() {
     <Route exact path="/the-Artemis-Website-V2/about" element={<AboutUsPage/>}/>
     <Route exact path="/the-Artemis-Website-V2/talent" element={<TalentPage/>}/>
     <Route exact path="/the-Artemis-Website-V2/*" element={<ErrorPage/>}/>
-    <Route exact path="/the-Artemis-Website-V2/error" element={<ErrorPage/>}/>
+    <Route exact path="/*" element={<ErrorPage/>}/>
     <Route exact path="/error" element={<ErrorPage/>}/>
     </Routes>
     </Router>

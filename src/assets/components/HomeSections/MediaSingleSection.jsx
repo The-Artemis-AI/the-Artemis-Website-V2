@@ -23,7 +23,7 @@ function MediaSingleSection() {
     
 
   return (
-    <div className='m-0 w-full min-h-[100vh] px-10 bigphone:px-20'>
+    <div className='m-0 w-full min-h-[100vh] px-5 phone:px-10 bigphone:px-20'>
 
     <img src={serviceContent.Image} alt="image"  className='w-full h-[50vh] object-cover bg-red-300'/>
     <div className='py-10 flex flex-col tablet:flex-row justify-between'>
@@ -58,12 +58,12 @@ function MediaSingleSection() {
   <p>{serviceContent?.authorNotes}</p>
   </div>
     </div>
-    <div className='tablet:w-[30%] h-[200px] tablet:h-[300px] my-5  bg-blacky flex flex-col justify-between p-10'>
-    <h3 className='text-2xl text-white ' style={{fontFamily:"Montserrat"}}>Get Notified Upon Release?</h3>
-    <h3 className='text-2xl text-white ' style={{fontFamily:"Montserrat"}}>Share Your Email With Us</h3>
-    <div className='w-full items-center justify-center rounded overflow-hidden flex flex-row mt-3'>
-    <input className='bg-white placeholder:text-gray-500 py-2 px-3 rounded-l   text-sm bigphone:text-lg w-[80%] z-10' placeholder='johndoe@gmail.com'/>
-    <button className='bg-pink-400 p-3 rounded-l items-center justify-center  flex w-[20%] ml-[-3px]'><FaArrowRight className='text-white text-xl -rotate-45'/></button>
+    <div className='bigphone:w-[30%] bigphone:h-[300px] bg-blacky flex flex-col justify-between p-10 space-y-2 my-2'>
+    <h3 className='text-lg phone:text-xl bigphone:text-2xl text-white ' style={{fontFamily:"Montserrat"}}>Get Notified Upon Release?</h3>
+    <h3 className='text-lg phone:text-xl bigphone:text-2xl text-white ' style={{fontFamily:"Montserrat"}}>Share Your Email With Us</h3>
+    <div className='w-full items-center justify-center rounded overflow-hidden flex flex-row my-2'>
+    <input className='bg-white placeholder:text-gray-500 py-2 px-3 rounded  text-sm w-[80%]' placeholder='johndoe@gmail.com'/>
+    <button className='bg-pink-400 p-2 rounded rounded-l-none rounded-b-none items-center justify-center flex w-[20%] ml-[-3px]'><FaArrowRight className='text-white text-xl -rotate-45'/></button>
     </div>
     </div>
  

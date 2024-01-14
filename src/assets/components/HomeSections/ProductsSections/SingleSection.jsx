@@ -16,11 +16,11 @@ function SingleSection(props) {
     
 
   return (
-    <div className='m-0 w-full min-h-[100vh] px-20'>
+    <div className='m-0 w-full min-h-[100vh] px-5 phone:px-10 bigphone:px-20'>
 
     <img src={Image} alt="image"  className='w-full h-[20%] object-cover'/>
-    <div className='py-10 flex flex-row justify-between'>
-    <div className='w-[50%]  '>
+    <div className='py-10 flex flex-col bigphone:flex-row justify-between'>
+    <div className='w-full bigphone:w-[50%]  '>
     <div className='flex flex-col mb-5'> 
     <h3 className='text-lg text-black font-semibold' style={{fontFamily:"Montserrat"}}>{props.title}</h3>
     <p className='text-sm bigphone:text-base mt-[-5px]' style={{}}> Machine Learning</p>
@@ -48,10 +48,10 @@ function SingleSection(props) {
     }
   </div>
     </div>
-    <div className='w-[30%] h-[300px] bg-blacky flex flex-col justify-between p-10'>
-    <h3 className='text-2xl text-white ' style={{fontFamily:"Montserrat"}}>Get Notified Upon Release?</h3>
-    <h3 className='text-2xl text-white ' style={{fontFamily:"Montserrat"}}>Share Your Email With Us</h3>
-    <div className='w-full items-center justify-center rounded overflow-hidden flex flex-row'>
+    <div className='bigphone:w-[30%] bigphone:h-[300px] bg-blacky flex flex-col justify-between p-10 space-y-2'>
+    <h3 className='text-lg phone:text-xl bigphone:text-2xl text-white ' style={{fontFamily:"Montserrat"}}>Get Notified Upon Release?</h3>
+    <h3 className='text-lg phone:text-xl bigphone:text-2xl text-white ' style={{fontFamily:"Montserrat"}}>Share Your Email With Us</h3>
+    <div className='w-full items-center justify-center rounded overflow-hidden flex flex-row my-2'>
     <input className='bg-white placeholder:text-gray-500 py-2 px-3 rounded  text-sm w-[80%]' placeholder='johndoe@gmail.com'/>
     <button className='bg-pink-400 p-2 rounded rounded-l-none rounded-b-none items-center justify-center flex w-[20%] ml-[-3px]'><FaArrowRight className='text-white text-xl -rotate-45'/></button>
     </div>
