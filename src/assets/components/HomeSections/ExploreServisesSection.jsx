@@ -6,7 +6,7 @@ import MinICT from "../../images/MINICT.webp"
 import apiday from "../../images/apiday.webp"
 import seyvin from "../../images/seyvin.webp"
 import CMU from "../../images/CMU.webp"
-import oxford from "../../images/oxford.svg"
+import oxford from "../../images/oxford.webp"
 import stealth from "../../images/stealth.webp"
 import ai_blockchain from "../../images/Ai-blockchain2.webp"
 
@@ -18,60 +18,66 @@ function ExploreServisesSection() {
             Image:Image,
             title:"Data Analytics",
             description:"Artemis AI specializes in transforming raw data into actionable insights by utilizing advanced analytical techniques and AI algorithms. Through this service, businesses can gain valuable intelligence and make informed decisions to drive growth and innovation in their environment.",
-            impact:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-            solution:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            problem:"Need to analyze large-scale citizen data to promote recycling habits in Rwanda.",
+            impact:"Facilitated the promotion of recycling habits through targeted insights and strategies.",
+            solution:"Built data processing pipelines to derive insights from data of over 15,000 citizens.",
             clients:[{name:"Rwandan Ministry of ICT & Innovation", Logo:MinICT, country:"Rwanda"}]
         },
         {
             Image:Image2,
             title:"Generative AI Solutions",
             description:"We offer custom generative AI solutions tailored to meet specific business needs. These solutions leverage the power of generative AI to produce unique and creative outputs, such as images, text, and music, to enhance product development, content creation, and user experience.",
-            impact:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-            solution:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            problem:"Need to provide round-the-clock customer support for their clients.",
+            impact:"Built strong customer loyalty to the brand through consistent, reliable support.",
+            solution:"Developed AI-powered customer support software for 24/7 service.",
             clients:[{name:"Apiday", Logo:apiday, country:"France"}]
         },
         {
             Image:Image3,
             title:"AI Software Development",
             description:"With a focus on customization, Artemis AI develops AI software to address the unique requirements of each business. By leveraging cutting-edge AI technologies, they build tailored software solutions that automate processes, optimize operations, and drive efficiency across various industry domains.",
-            impact:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-            solution:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            problem:"Need for an advanced system to enable effective interaction with data and extract valuable insights.",
+            impact:"Facilitated efficient data interaction and insight extraction through an LLM-powered document retrieval and comprehension system.",
+            solution:"Implemented an LLM (Large Language Model) powered document retrieval and comprehension system.",
             clients:[{name:"Seyvin", Logo:seyvin, country:"Rwanda"}]
         },
         {
             Image:Image,
             title:"AI Training & Consultancy",
             description:"We empower teams with AI knowledge and expertise through comprehensive training and consultancy services. Businesses can enhance their internal capabilities and understanding of AI, enabling them to effectively integrate AI into their operations and develop AI-focused strategies.",
-            impact:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-            solution:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            problem:"Requirement to develop an accessible educational resource for machine learning.",
+            impact:"Developed an accessible online introductory course, broadening the reach and understanding of machine learning concepts.",
+            solution:"Developed an online introductory course for a machine learning module.",
             clients:[{name:"Carnegie Mellon University", Logo:CMU, country:"USA"}]
         },
         {
             Image:Image2,
             title:"Web & Mobile App Development",
             description:"We specializes in building web and mobile applications integrated with AI capabilities. By incorporating AI into app development, businesses can deliver intelligent and personalized user experiences, automate tasks, and leverage data-driven insights to drive better user engagement and business outcomes.",
-            impact:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-            solution:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-            clients:[{name:"Stealth Startup", Logo:stealth, country:"USA"}]
-        },
-        {
-            Image:ai_blockchain,
-            title:"AI in Blockchain & Cryptocurrency",
-            description:"Cutting-edge AI Research for Tomorrow's Technological Breakthroughs",
-            impact:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-            solution:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            problem:"Fintech startup in need of funding and a way to showcase its concept.",
+            impact:"Enabled a fintech startup to seek funding and demonstrate potential through a professional landing page and a functional MVP.",
+            solution:"Created a landing page and developed a Minimum Viable Product (MVP).",
             clients:[{name:"Stealth Startup", Logo:stealth, country:"USA"}]
         },
         {
             Image:Image3,
             title:"Research",
-            description:"Revolutionizing Blockchain & Crypto with Advanced AI Solutions",
-            impact:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-            solution:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            description:"Cutting-edge AI Research for Tomorrow's Technological Breakthroughs.",
+            problem:"Exploration of the state of NLP for Sustainable Development Goals (SDGs) and ethical data practices.",
+            impact:"Provided valuable insights into NLP applications for SDGs and highlighted ethical considerations in data practices.",
+            solution:"Conducted a comprehensive landscape assessment of NLP and ethical practices in open-source projects.",
             clients:[{name:"University of Manchester University of Oxford", Logo:oxford, country:"USA"}]
         },
-        
-
+        {
+            Image:ai_blockchain,
+            title:"AI in Blockchain & Cryptocurrency ",
+            description:" Revolutionizing Blockchain & Crypto with Advanced AI Solutions",
+            problem:"Required to research deployable AI models for efficient ranking mechanisms in a cryptocurrency network.",
+            impact:"Provided a strategic direction for enhancing the cryptocurrency network's ranking mechanisms, paving the way for future improvements in speed and efficiency.",
+            solution:"Recommended deployable AI models on the cryptocurrency network for fast, efficient ranking.",
+            clients:[{name:"Stealth Startup", Logo:stealth, country:"USA"}]
+        },
+     
     ]
     const [serviceContent, setServiceContent] = useState(serviceData[0])
 
@@ -107,10 +113,15 @@ function ExploreServisesSection() {
     <img src={serviceContent.Image} alt="service picture" className='mb-3 h-[300px] w-full' style={{resize:"contain", objectFit:"cover"}}/>
     <h3 className='text-lg text-gray-400 my-2' style={{fontFamily:"Montserrat"}}>{serviceContent.title}</h3>
     <p className='text-sm tablet:text-base my-2' style={{}}> {serviceContent.description}</p>
-    <p className='text-lg text-gray-400 my-2' style={{fontFamily:"Montserrat", fontWeight:500}}> Impact</p>
-    <p className='text-sm tablet:text-base  my-2' style={{}}> {serviceContent.impact}</p>
-    <h3 className='text-lg text-gray-400 my-2' style={{fontFamily:"Montserrat", fontWeight:500}}> Solution and Impact</h3>
+
+    <p className='text-lg text-gray-400 my-2' style={{fontFamily:"Montserrat", fontWeight:500}}> Problem Faced</p>
+    <p className='text-sm tablet:text-base  my-2' style={{}}> {serviceContent.problem}</p>
+
+    <p className='text-lg text-gray-400 my-2' style={{fontFamily:"Montserrat", fontWeight:500}}> Implemented Solution</p>
     <p className='text-sm tablet:text-base  my-2' style={{}}> {serviceContent.solution}</p>
+
+    <h3 className='text-lg text-gray-400 my-2' style={{fontFamily:"Montserrat", fontWeight:500}}> Impact</h3>
+    <p className='text-sm tablet:text-base  my-2' style={{}}> {serviceContent.impact}</p>
     
     <h3 className='text-lg text-gray-400 my-2' style={{fontFamily:"Montserrat", fontWeight:500}}> Clients And Partners</h3>
 

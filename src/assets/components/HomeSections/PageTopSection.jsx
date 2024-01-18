@@ -8,7 +8,7 @@ function PageTopSection(props) {
       <Navbar activeLink={props.activeLink} />
       <div className=" w-full h-[90%] mt-10 mx-auto bg-white  items-center flex flex-col justify-between">
         <div className="w-full bigphone:w-[85%] mx-auto flex flex-col bigphone:flex-row items-center justify-between">
-          <div className="w-[80%] bigphone:w-[50%] my-2 ">
+          <div className="w-[80%] bigphone:w-[60%] my-2 ">
             <p className="text-xl my-2 bg-gradient-to-r from-green-500 to-blue-500 bg-clip-text text-transparent">
               {props.title}
             </p>
@@ -20,7 +20,7 @@ function PageTopSection(props) {
               {props.lastPart}
             </h3>
           </div>
-          <div className="w-[80%] my-3 bigphone:my-1 bigphone:w-[50%]">
+          <div className="w-[80%] my-3 bigphone:my-1 bigphone:w-[40%]">
             <p>{props.content}</p>
           </div>
         </div>

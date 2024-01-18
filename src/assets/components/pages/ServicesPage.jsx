@@ -11,10 +11,10 @@ function ServicesPage() {
     <PageTopSection 
     activeLink="Services"
     title="Services" 
-    firstPart="We offer "
-    underlined="a variety "
-    lastPart="of services"
-    content="World-class AI development at affordable rates."
+    firstPart="World-class "
+    underlined="AI development "
+    lastPart="at affordable rates."
+    content=""
     Image = {Image}
     />
    <ExploreServisesSection/>

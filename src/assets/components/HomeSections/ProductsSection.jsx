@@ -2,6 +2,7 @@ import {useState} from 'react'
 // import ipad from "../../images/tablet2.webp"
 import ipad from "../../images/tab.webp"
 import { FaArrowRight } from 'react-icons/fa'
+import { Link } from 'react-router-dom'
 
 function ProductsSection() {
   return (
@@ -16,7 +17,7 @@ function ProductsSection() {
     <p className='laptop:text-[1.1em] mt-5 tablet:mt-1 tablet:w-[80%]'>Introducing our flagship AI-powered document reader, revolutionizing data interaction by allowing users to
      'chat' with their data. It seamlessly interprets and extracts valuable insights from various documents, making data analysis conversational and user-friendly. With Seyvin, 
      data becomes an engaging dialogue, unlocking new levels of understanding and accessibility. </p>
-    <button className='bg-black rounded-full px-4 py-2 text-white text-sm flex space-x-3 items-center group transition-all  ease-in-out delay-500 overflow-hidden mt-5'><p className='bg-gradient-to-r from-blue-500 to-green-500 bg-clip-text text-transparent'>Checkout Servin</p><FaArrowRight className='ml-2 text-sm hidden translate-x-[-200px] group-hover:translate-x-0 group-hover:flex transition-all ease-in-out delay-500 text-green-400'/> </button>
+    <Link to={"/the-Artemis-Website-V2/products/Seyvin"}><button className='bg-black rounded-full px-4 py-2 text-white text-sm flex space-x-3 items-center group transition-all  ease-in-out delay-500 overflow-hidden mt-5'><p className='bg-gradient-to-r from-blue-500 to-green-500 bg-clip-text text-transparent'>Checkout Servin</p><FaArrowRight className='ml-2 text-sm hidden translate-x-[-200px] group-hover:translate-x-0 group-hover:flex transition-all ease-in-out delay-500 text-green-400'/> </button></Link>
     </div>
     </div>
     </div>
