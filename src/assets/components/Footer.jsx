@@ -19,35 +19,36 @@ function Footer() {
     </div>
     <div className='items-start justify-center flex flex-col w-[40%] bigphone:w-[15%] space-y-2 mb-5 phone:mb-0'>
    <p className='text-gray-200 font-semibold text-sm'>Main</p>
-    <p className='text-sm text-gray-400 text-start'>Home</p>
-    <p className='text-sm text-gray-400 text-start'>Services</p>
-    <p className='text-sm text-gray-400 text-start'>Products</p>
-    <p className='text-sm text-gray-400 text-start'>Media</p>
-    <p className='text-sm text-gray-400 text-start'>Talent</p>
+    <p className='text-sm text-gray-400 text-start hover:text-gray-200 transition-all'><Link to="/">Home</Link></p>
+    <p className='text-sm text-gray-400 text-start hover:text-gray-200 transition-all'><Link to="/the-Artemis-Website-V2/services">Services</Link></p>
+    <p className='text-sm text-gray-400 text-start hover:text-gray-200 transition-all'><Link to="/the-Artemis-Website-V2/products">Products</Link></p>
+    <p className='text-sm text-gray-400 text-start hover:text-gray-200 transition-all'><Link to="/the-Artemis-Website-V2/media">Media</Link></p>
+    <p className='text-sm text-gray-400 text-start hover:text-gray-200 transition-all'><Link to="/the-Artemis-Website-V2/talent">Contact</Link></p>
     </div>
     <div className='items-start justify-center flex flex-col w-[40%] bigphone:w-[15%] space-y-2 mb-5 phone:mb-0'>
     <p className='text-gray-200 font-semibold text-sm'>Information</p>
-     <p className='text-sm text-gray-400 text-start'>FAQ</p>
-     <p className='text-sm text-gray-400 text-start'>About Us</p>
-     <p className='text-sm text-gray-400 text-start'>Resources</p>
-     <p className='text-sm text-gray-400 text-start'>Terms</p>
-     <p className='text-sm text-gray-400 text-start'>Privacy Policy</p>
-     <p className='text-sm text-gray-400 text-start'>Sitemap</p>
+     <p className='text-sm text-gray-400 text-start hover:text-gray-200 transition-all'><Link to="/the-Artemis-Website-V2/FAQ">FAQ</Link></p>
+     <p className='text-sm text-gray-400 text-start hover:text-gray-200 transition-all'><Link to="/the-Artemis-Website-V2/about">About Us</Link></p>
+     <p className='text-sm text-gray-400 text-start hover:text-gray-200 transition-all'><Link to="">Resources</Link></p>
+     <p className='text-sm text-gray-400 text-start hover:text-gray-200 transition-all'><Link to="">Terms</Link></p>
+     <p className='text-sm text-gray-400 text-start hover:text-gray-200 transition-all'><Link to="">Privacy Policy</Link></p>
+     <p className='text-sm text-gray-400 text-start hover:text-gray-200 transition-all'><Link to="">Sitemap</Link></p>
      </div>
 
     <div className='items-start justify-center flex flex-col w-[80%] bigphone:w-[20%] mt-4 bigphone:mt-1 space-y-2 mb-5 phone:mb-0'>
 <div className='flex flex-row space-x-2'>
 <Link to="https://www.linkedin.com/company/the-artemis-ai"><FaLinkedinIn className='text-gray-200'/></Link>
 <Link to="https://www.facebook.com/profile.php?id=100094257786765"><FaFacebookF className='text-gray-200'/></Link>
+{/*
 <Link to="https://twitter.com/TheArtemis_AI"><BsTwitterX  className='text-gray-200'/></Link>
-<Link to="https://www.linkedin.com/company/the-artemis-ai"><RiYoutubeLine className='text-gray-200'/></Link>
+  <Link to="https://www.linkedin.com/company/the-artemis-ai"><RiYoutubeLine className='text-gray-200'/></Link>*/}
 </div>    
-<div className='flex flex-row space-x-1'><p className='text-sm text-gray-200 text-start font-semibold'>Email:</p><p className='text-sm text-gray-400 text-start'>team@theartemisai.com</p></div>
-<div className='flex flex-row space-x-1'><p className='text-sm text-gray-200 text-start font-semibold'>Phone:</p><p className='text-sm text-gray-400 text-start'>+250 798 971 331</p></div>
+<div className='flex flex-row space-x-1'><p className='text-sm text-gray-200 text-start font-semibold'>Email:</p><p className='text-sm text-gray-400 text-start hover:text-gray-200 transition-all'><Link to={"mailto:team@theartemisai.com"}>team@theartemisai.com</Link></p></div>
+<div className='flex flex-row space-x-1'><p className='text-sm text-gray-200 text-start font-semibold'>Phone:</p><p className='text-sm text-gray-400 text-start hover:text-gray-200 transition-all'><Link to="tel:+250 798 971 331"> +250 798 971 331</Link></p></div>
 
 <div className='flex flex-col mt-3 space-y-1'>
 
-<p className='text-sm text-gray-400 text-start'>Westerwelle Start Up Haus</p>
+<p className='text-sm text-gray-400 text-start'><Link to="https://www.google.com/maps/place/The+Artemis+AI/@-1.9556488,30.094014,17.02z/data=!4m6!3m5!1s0x19dca78d5fb09e7f:0xd780d5ab6a2908a2!8m2!3d-1.9556339!4d30.0965828!16s%2Fg%2F11v5dqfrcg?entry=ttu">Westerwelle Start Up Haus</Link></p>
 <p className='text-sm text-gray-400 text-start'>Fair View Building</p>
 <p className='text-sm text-gray-400 text-start'>Kigali, Rwanda</p>
 </div>

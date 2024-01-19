@@ -3,8 +3,8 @@ import Image from "../../images/person.webp"
 import Image2 from "../../images/woman.svg"
 import Image3 from "../../images/deepmind.webp"
 import PersonCard from '../PersonCard'
-
-
+import Endy from "../../images/Endy_pic.webp"
+import Samy from "../../images/Sam_pic.webp"
 
 function TeamSection() {
   return (
@@ -13,18 +13,18 @@ function TeamSection() {
 
     <div className='flex flex-row flex-wrap w-full h-full mx-auto justify-start'>
     <PersonCard 
-    Image={Image}
-    title={"Jonathan Makoma"}
-    subtitle="CEO"
+    Image={Samy}
+    title={"Sammy Gasana"}
+    subtitle="Co-founder & CEO"
     Link="/the-Artemis-Website-V2/products/servin"
     />
     <PersonCard  
-    Image={Image}
-    title={"Umutoni Grace"}
-    subtitle="COO"
+    Image={Endy}
+    title={"Endegenaamare Taye Alemayehu (Endy)"}
+    subtitle="Co-founder & Product Manager"
     Link="/the-Artemis-Website-V2/products/reppin"
     />
-    <PersonCard  
+{  /*  <PersonCard  
     Image={Image}
     title={"Ncuti Gaele"}
     subtitle="Marketing"
@@ -59,7 +59,7 @@ function TeamSection() {
     title={"Mugabo Jeofrey"}
     subtitle="Software Developer"
     Link="/the-Artemis-Website-V2/products/arin"
-    />
+/>*/}
 
     </div>
     

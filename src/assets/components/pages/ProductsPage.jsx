@@ -14,7 +14,7 @@ function ProductsPage() {
     firstPart="Explore "
     underlined="our portfolio  "
     lastPart="of work"
-    content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia quo natus voluptates repudi.Lorem ipsum dolor sit amet consectetur adipisicing elit"
+    // content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia quo natus voluptates repudi.Lorem ipsum dolor sit amet consectetur adipisicing elit"
     Image = {Image}
     />
     <OurProductSection/>

@@ -11,8 +11,8 @@ function OurBlogSection() {
     <div className='w-full min-h-full  mt-5 p-5 bigphone:p-10 flex flex-col items-center justify-center'>
     <h3 className='text-4xl mb-10'>Check Out Our Blog</h3>
 
-    <div className='flex flex-row flex-wrap w-full h-full mx-auto'>
-   <div className="w-full bigphone:w-[50%] bigphone:basis-[50%] tablet:w-[30%] tablet:basis-[30%] h-[40%] basis-[100%]  m-1 mb-4 group">
+    <div className='flex flex-row flex-wrap w-full h-full mx-auto items-center justify-center'>
+   <div className="w-full bigphone:w-[50%] bigphone:basis-[50%] tablet:w-[30%] tablet:basis-[30%] h-[40%] basis-[100%]  m-1 mb-4 group ">
    <div className="w-[90%] tablet:w-[75%]">
      <h3 className="font-semibold mb-3 text-xl">Filter And Search</h3>
 

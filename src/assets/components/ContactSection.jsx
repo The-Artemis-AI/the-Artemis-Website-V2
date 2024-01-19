@@ -3,6 +3,9 @@ import React, {useState, useEffect} from 'react'
 import { useForm} from "react-hook-form"
 import { Link } from 'react-router-dom'
 import * as yup from "yup"
+import { PhoneNumberUtil } from 'google-libphonenumber';
+import { PhoneInput, FlagImage } from 'react-international-phone';
+import 'react-international-phone/style.css';
 // import { yupResolver } from "@hookform/resolvers/yup";
 
 const emailPattern = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
@@ -36,6 +39,20 @@ const formSchema = yup.object().shape({
 function ContactSection() {
   const [isValid, setIsValid] = useState(false)
 
+  const phoneUtil = PhoneNumberUtil.getInstance();
+
+
+const isPhoneNumberValid = (phone) => {
+  try {
+    return phoneUtil.isValidNumber(phoneUtil.parseAndKeepRawInput(phone));
+  } catch (error) {
+    return false;
+  }
+};
+
+const [phone, setPhone] = useState('');
+const isPhoneValid = isPhoneNumberValid(phone)
+
   let passwordPattern = /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,15}$/  //Capital Letter, one Small Letter, and the number of characters should be between 6 to 15
   const {
     register,handleSubmit,watch,formState: { errors }, reset
@@ -62,24 +79,24 @@ function ContactSection() {
     <div className='input flex flex-col w-[100%] bigphone:w-[45%]'>
     <p className=''>First Name</p>
     <input type="text" {...register("FirstName", { required: true})}  placeholder='John' className={errors.FirstName?'bg-gray-300 rounded-sm p-2 ring-red-500':"bg-gray-300 rounded-sm p-2"}/>
-    {errors.FirstName && <p className='text-red-500 text-xs font-semibold'>{errors.FirstName?.message}Invalid Input</p>}
+    {errors.FirstName && <p className='text-red-500 text-xs font-semibold'>{errors.FirstName?.message}First name is invalid</p>}
     </div>
     <div className='input flex flex-col w-[100%] bigphone:w-[45%]'>
     <p className=''>Last Name</p>
     <input type="text" {...register("LastName")}  placeholder='Smith' className='bg-gray-300 rounded-sm p-2'/>
-    {errors.LastName && <p className='text-red-500 text-xs font-semibold'>Invalid Input</p>}
+    {errors.LastName && <p className='text-red-500 text-xs font-semibold'>Last Name is invalid</p>}
     </div>
     </div>
     <div className='input flex flex-col bigphone:flex-row justify-between phone:my-2'>
     <div className='input flex flex-col w-[100%] bigphone:w-[45%]'>
     <p className=''>Email</p>
     <input type="text" {...register("Email", {required:true, pattern: /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/ })}  placeholder='johnsmith@gmail.com' className='bg-gray-300 rounded-sm p-2'/>
-    {errors.Email && <p className='text-red-500 text-xs font-semibold'>Invalid Input</p>}
+    {errors.Email && <p className='text-red-500 text-xs font-semibold'>Email is invalid</p>}
     </div>
     <div className='input flex flex-col w-[100%] bigphone:w-[45%]'>
     <p className=''>Company Name (If Applicable)</p>
     <input type="text" {...register("Company")}  placeholder='Example Company' className='bg-gray-300 rounded-sm p-2'/>
-    {errors.Company && <p className='text-red-500 text-xs font-semibold'>Invalid Input</p>}
+    {errors.Company && <p className='text-red-500 text-xs font-semibold'>Company name is invalidt</p>}
     </div>
     </div>
     <div className='input flex flex-col bigphone:flex-row justify-between phone:my-2'>
@@ -87,17 +104,26 @@ function ContactSection() {
     <p className=''>Phone</p>
     <div>
     
-    <div className='flex flex-row w-full justify-between'>
-    <p className='bg-gray-300 rounded-sm items-center justify-center flex flex-col p-2 w-[15%] text-xs'>+250</p>
-    <input type="text" {...register("Phone",  { required: true})}  placeholder='555 555 555' className='bg-gray-300 rounded-sm p-2 w-[82%]'/>
+    <div className='flex flex-col w-full justify-between'>
+   
+    <PhoneInput
+        defaultCountry="rw"
+        {...register("Phone",   {required:true})}
+        // onChange={(phone) => setPhone(phone)}
+        className='bg-white rounded-sm p-2'
+      />
+
+      {/*!isPhoneValid && <div style={{ color: 'red' }}>Phone is not valid</div>*/}
+    {/*<p className='bg-gray-300 rounded-sm items-center justify-center flex flex-col p-2 w-[15%] text-xs'>+250</p>
+  <input type="text" {...register("Phone",   {required:true, pattern:/(0(7[2|3|8|9][0-9]))\d{5}/})}  placeholder='555 555 555' className='bg-gray-300 rounded-sm p-2 w-[82%]'/>*/}
     </div>
-    {errors.Phone && <p className='text-red-500 text-xs font-semibold'>Invalid Input</p>}
+    {(errors.Phone ) && <p className='text-red-500 text-xs font-semibold'>Phone number is invalid</p>}
 
     </div>
     </div>
    
     </div>
-    <p className='important text-sm my-4'>*View our <p className='font-semibold underline'>Privacy Policy</p> for details on privacy and subscription.</p>
+    <p className='important text-sm my-4'>*View our <span className='font-semibold underline'>Privacy Policy</span> for details on privacy and subscription.</p>
     <button type='submit'  className='bg-black text-gray-100 text-sm py-2 mb-5 phone:mb-1 px-10 rounded-full mt-4' style={{backgroundColor:errors.Phone && errors.Company && errors.Email&& errors.FirstName&& errors.LastName?"black": "black"}}>Submit</button>
     </form>
     </div>

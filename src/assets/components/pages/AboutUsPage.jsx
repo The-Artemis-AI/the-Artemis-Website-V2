@@ -9,6 +9,8 @@ import Person from "../../images/person.webp"
 import TeamSection from "../HomeSections/TeamSection"
 import Endy from "../../images/Endy_pic.webp"
 import Samy from "../../images/Sam_pic.webp"
+import mission from "../../images/mission3d.png"
+import vision from "../../images/vision3d.png"
 function AboutUsPage() {
   return (
     <div className='p-0 m-0 w-full h-[100vh]'>
@@ -19,19 +21,23 @@ function AboutUsPage() {
     firstPart="We are a global technology company "
     underlined="specialising in AI "
     lastPart="solutions."
-    content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia quo natus voluptates repudi.Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit."
+    // content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia quo natus voluptates repudi.Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit."
     Image = {People}
     />
 
     <div className='phone:w-[85%] h-[50%] tablet:h-[60%] mx-auto phone:my-10 flex flex-col tablet:flex-row items-center justify-between'>
-    <div className='w-[70%] text-center tablet:text-start tablet:w-[45%] my-2'>
-    
+    <div className='w-[70%] text-center tablet:text-start tablet:w-[45%] my-2 flex flex-col items-center space-y-2'>
+    <img src={mission} className="w-20 h-20"/>
      <h3 className='text-lg tablet:text-3xl' style={{fontFamily:'Montserrat'}}>Our vision is To be the leading provider of AI-powered solutions that build your ideas into reality.</h3>
     </div>
-   { <div className='w-[90%] text-sm phone:text-[1em] tablet:w-[45%] space-y-6 '>
+    <div className='w-[70%] text-center tablet:text-start tablet:w-[45%] my-2 flex flex-col items-center space-y-2'>
+    <img src={vision} className="w-20 h-20"/>
+     <h3 className='text-lg tablet:text-3xl' style={{fontFamily:'Montserrat'}}>Our mission is To bring cool and positively impactful ideas to life.</h3>
+    </div>
+   {/* <div className='w-[90%] text-sm phone:text-[1em] tablet:w-[45%] space-y-6 '>
    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia quo natus voluptates repudi.Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia quo natus voluptates repudi.Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
-    </div>}
+  </div>*/}
    
     </div>
 
