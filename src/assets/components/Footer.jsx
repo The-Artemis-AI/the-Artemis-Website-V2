@@ -31,7 +31,7 @@ function Footer() {
      <p className='text-sm text-gray-400 text-start hover:text-gray-200 transition-all'><Link to="/the-Artemis-Website-V2/about">About Us</Link></p>
      <p className='text-sm text-gray-400 text-start hover:text-gray-200 transition-all'><Link to="">Resources</Link></p>
      <p className='text-sm text-gray-400 text-start hover:text-gray-200 transition-all'><Link to="">Terms</Link></p>
-     <p className='text-sm text-gray-400 text-start hover:text-gray-200 transition-all'><Link to="">Privacy Policy</Link></p>
+     <p className='text-sm text-gray-400 text-start hover:text-gray-200 transition-all'><Link to="/the-Artemis-Website-V2/privacyPolicy">Privacy Policy</Link></p>
      <p className='text-sm text-gray-400 text-start hover:text-gray-200 transition-all'><Link to="">Sitemap</Link></p>
      </div>
 

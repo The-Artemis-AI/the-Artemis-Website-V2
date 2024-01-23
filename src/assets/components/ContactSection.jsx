@@ -123,7 +123,7 @@ const isPhoneValid = isPhoneNumberValid(phone)
     </div>
    
     </div>
-    <p className='important text-sm my-4'>*View our <span className='font-semibold underline'>Privacy Policy</span> for details on privacy and subscription.</p>
+    <p className='important text-sm my-4'>*View our <Link to="/the-Artemis-Website-V2/privacyPolicy" className='font-semibold underline'>Privacy Policy</Link> for details on privacy and subscription.</p>
     <button type='submit'  className='bg-black text-gray-100 text-sm py-2 mb-5 phone:mb-1 px-10 rounded-full mt-4' style={{backgroundColor:errors.Phone && errors.Company && errors.Email&& errors.FirstName&& errors.LastName?"black": "black"}}>Submit</button>
     </form>
     </div>

@@ -9,6 +9,7 @@ import ErrorPage from "./assets/components/HomeSections/ErrorPage"
 import AboutUsPage from "./assets/components/pages/AboutUsPage"
 import TalentPage from "./assets/components/pages/TalentPage"
 import FAQPage from './assets/components/pages/FAQPage'
+import PrivacyPolicy from './assets/components/pages/PrivacyPolicy'
 import "./App.css"
 import { useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
@@ -36,6 +37,7 @@ function App() {
     <Route exact path="/the-Artemis-Website-V2/services" element={<ServicesPage/>}/>
     <Route exact path="/the-Artemis-Website-V2/FAQ" element={<FAQPage/>}/>
     <Route exact path="/the-Artemis-Website-V2/servin" element={<SingleProductPage/>}/>
+    <Route exact path="/the-Artemis-Website-V2/privacyPolicy" element={<PrivacyPolicy/>}/>
     
    <Route exact path="/the-Artemis-Website-V2/products" element={<ProductsPage/>}/>
    <Route exact path="/the-Artemis-Website-V2/products/:productId" element={<SingleProductPage />} /> 
