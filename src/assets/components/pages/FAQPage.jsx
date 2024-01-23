@@ -71,7 +71,7 @@ function FAQPage() {
     <FaqCard 
     Question="Can I join your team?"
     Response="We are always on the lookout for talented and passionate individuals to join our team. If you're interested in working with us, please visit the "
-    Link="/the-Artemis-Website-V2/talent"
+    Link="/the-Artemis-Website-V2/contact"
     Navigate=" Contact Us "
     Response2="page and submit your application. We welcome applicants with diverse skills and backgrounds who share our commitment to excellence."
     />

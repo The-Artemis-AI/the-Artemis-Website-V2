@@ -7,7 +7,7 @@ import SingleMediaPage from './assets/components/pages/SingleMediaPage'
 import MediaPage from "./assets/components/pages/MediaPage"
 import ErrorPage from "./assets/components/HomeSections/ErrorPage"
 import AboutUsPage from "./assets/components/pages/AboutUsPage"
-import TalentPage from "./assets/components/pages/TalentPage"
+import ContactPage from "./assets/components/pages/ContactPage"
 import FAQPage from './assets/components/pages/FAQPage'
 import PrivacyPolicy from './assets/components/pages/PrivacyPolicy'
 import "./App.css"
@@ -59,7 +59,7 @@ function App() {
     <Route exact path="/the-Artemis-Website-V2/media/:mediaId" element={<SingleMediaPage />} /> 
 
     <Route exact path="/the-Artemis-Website-V2/about" element={<AboutUsPage/>}/>
-    <Route exact path="/the-Artemis-Website-V2/talent" element={<TalentPage/>}/>
+    <Route exact path="/the-Artemis-Website-V2/contact" element={<ContactPage/>}/>
     <Route exact path="/the-Artemis-Website-V2/*" element={<ErrorPage/>}/>
     <Route exact path="/*" element={<ErrorPage/>}/>
     <Route exact path="/error" element={<ErrorPage/>}/>

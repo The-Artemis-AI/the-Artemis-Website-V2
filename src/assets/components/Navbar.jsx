@@ -20,7 +20,7 @@ function Navbar(props) {
     <Link to="/the-Artemis-Website-V2/services"> <p className='text-sm cursor-pointer' id={active ==="Services"?'active':""}> Services</p></Link>
     <Link to="/the-Artemis-Website-V2/products"><p className='text-sm cursor-pointer' id={active ==="Products"?'active':""}> Products</p></Link>
     <Link to="/the-Artemis-Website-V2/media"><p className='text-sm cursor-pointer' id={active ==="Media"?'active':""}> Media</p></Link>
-    <Link to="/the-Artemis-Website-V2/talent"><p className='text-sm cursor-pointer' id={active ==="Talent"?'active':""}> Contact</p></Link>
+    <Link to="/the-Artemis-Website-V2/contact"><p className='text-sm cursor-pointer' id={active ==="Contact"?'active':""}> Contact</p></Link>
     <Link to="/the-Artemis-Website-V2/about"><p className='text-sm cursor-pointer' id={active ==="About"?'active':""}> About Us</p></Link>
     </div>
     <HashLink to="#contact" smooth><button className='hidden tablet:flex text-white text-xs p-2 px-4 bg-blacky rounded-full text-center items-center justify-center'>Let's Talk</button></HashLink>
@@ -31,7 +31,7 @@ function Navbar(props) {
     <Link to="/the-Artemis-Website-V2/services"> <p className='text-sm cursor-pointer' id={active ==="Service"?'active':""}> Services</p></Link>
     <Link to="/the-Artemis-Website-V2/products"> <p className='text-sm cursor-pointer' id={active ==="Product"?'active':""}> Products</p></Link>
     <Link to="/the-Artemis-Website-V2/media"> <p className='text-sm cursor-pointer' id={active ==="Media"?'active':""}> Media</p></Link>
-    <Link to="/the-Artemis-Website-V2/talent"> <p className='text-sm cursor-pointer' id={active ==="Talent"?'active':""}> Contact</p></Link>
+    <Link to="/the-Artemis-Website-V2/contact"> <p className='text-sm cursor-pointer' id={active ==="Contact"?'active':""}> Contact</p></Link>
     <Link to="/the-Artemis-Website-V2/about"> <p className='text-sm cursor-pointer' id={active ==="About"?'active':""}> About Us</p></Link>
     <HashLink to="#contact" smooth><button className='text-white text-xs p-2 px-4 bg-blacky rounded-full'>Let's Talk </button></HashLink>
 

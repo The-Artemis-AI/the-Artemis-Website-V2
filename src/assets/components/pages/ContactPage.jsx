@@ -8,14 +8,14 @@ import { FaFacebookF } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa";
 import { RiYoutubeLine } from "react-icons/ri";
 import { BsTwitterX } from "react-icons/bs";
-function TalentPage() {
+function ContactPage() {
   return (
     <div className='p-0 m-0 w-full h-[100vh]'>
-    <Navbar activeLink="Talent"/>
+    <Navbar activeLink="Contact"/>
 
  {/*   <PageTopSection 
-    activeLink="Talent"
-    title="Our Talent"
+    activeLink="Contact"
+    title="Our Contact"
     subtitle="Stay Up to Date with Artemis AI"
     firstPart="Stay "
     underlined="Up to Date "
@@ -40,4 +40,4 @@ function TalentPage() {
   )
 }
 
-export default TalentPage
+export default ContactPage

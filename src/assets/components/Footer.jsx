@@ -23,7 +23,7 @@ function Footer() {
     <p className='text-sm text-gray-400 text-start hover:text-gray-200 transition-all'><Link to="/the-Artemis-Website-V2/services">Services</Link></p>
     <p className='text-sm text-gray-400 text-start hover:text-gray-200 transition-all'><Link to="/the-Artemis-Website-V2/products">Products</Link></p>
     <p className='text-sm text-gray-400 text-start hover:text-gray-200 transition-all'><Link to="/the-Artemis-Website-V2/media">Media</Link></p>
-    <p className='text-sm text-gray-400 text-start hover:text-gray-200 transition-all'><Link to="/the-Artemis-Website-V2/talent">Contact</Link></p>
+    <p className='text-sm text-gray-400 text-start hover:text-gray-200 transition-all'><Link to="/the-Artemis-Website-V2/contact">Contact</Link></p>
     </div>
     <div className='items-start justify-center flex flex-col w-[40%] bigphone:w-[15%] space-y-2 mb-5 phone:mb-0'>
     <p className='text-gray-200 font-semibold text-sm'>Information</p>
