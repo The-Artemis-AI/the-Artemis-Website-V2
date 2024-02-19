@@ -17,19 +17,19 @@ function ExploreServisesSection() {
         {
             Image:Image,
             title:"Data Analytics",
-            description:"Artemis AI specializes in transforming raw data into actionable insights by utilizing advanced analytical techniques and AI algorithms. Through this service, businesses can gain valuable intelligence and make informed decisions to drive growth and innovation in their environment.",
-            problem:"Need to analyze large-scale citizen data to promote recycling habits in Rwanda.",
-            impact:"Facilitated the promotion of recycling habits through targeted insights and strategies.",
-            solution:"Built data processing pipelines to derive insights from data of over 15,000 citizens.",
+            description:"Our Data Analytics service at Artemis AI is more than just crunching numbers; it's about transforming raw data into actionable insights that drive real change. Take our collaboration with the government of Rwanda, for example.",
+            problem:"In Rwanda, there was a pressing need to promote recycling habits among citizens, but analyzing large-scale data to understand behaviors and implement effective strategies posed a significant challenge.",
+            impact:"The results were remarkable. By implementing pilot projects based on our insights, we witnessed a staggering 67% increase in recycling in the targeted areas of Kigali. Our efforts not only promoted sustainable habits but also contributed to a cleaner and greener environment.",
+            solution:"Artemis AI stepped in with a solution. We developed robust data processing pipelines capable of handling the vast amount of information from over 15,000 citizens in the city of Kigali. Using advanced analytical techniques and AI algorithms, we turned this data into valuable insights.",
             clients:[{name:"Rwandan Ministry of ICT & Innovation", Logo:MinICT, country:"Rwanda"}]
         },
         {
             Image:Image2,
             title:"Generative AI Solutions",
-            description:"We offer custom generative AI solutions tailored to meet specific business needs. These solutions leverage the power of generative AI to produce unique and creative outputs, such as images, text, and music, to enhance product development, content creation, and user experience.",
-            problem:"Need to provide round-the-clock customer support for their clients.",
-            impact:"Built strong customer loyalty to the brand through consistent, reliable support.",
-            solution:"Developed AI-powered customer support software for 24/7 service.",
+            description:"At Artemis AI, our Generative AI Solutions are designed to revolutionize the way businesses engage with their customers. Let's delve into how we tackled a common challenge faced by many companies: providing round-the-clock customer support.",
+            problem:"Many businesses struggle to maintain constant availability for customer inquiries, leading to dissatisfaction and lost opportunities for engagement.",
+            impact:"Our solution not only revolutionized customer support but also served as the foundation for streamlining our AI pipeline. By integrating our AI-powered customer support software, businesses were able to automate various aspects of their customer service operations, from addressing inquiries to resolving issues. This integration led to greater efficiency and effectiveness in meeting the diverse needs of their customers, ultimately driving higher levels of satisfaction and loyalty. At Artemis AI, we're committed to continuous innovation and empowerment, ensuring that our solutions not only solve immediate challenges but also pave the way for future advancements in AI-driven customer support.",
+            solution:"Artemis AI rose to the occasion by developing cutting-edge AI-powered customer support software. Our solution leveraged advanced generative AI algorithms to automate the training and evaluation of models for question answering. By tapping into internal data derived from cloud storage databases and internal documentation, we created a seamless process for addressing customer queries 24/7.",
             clients:[{name:"Apiday", Logo:apiday, country:"France"}]
         },
         {

@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-import Logo from "../../assets/images/logo-black.svg"
+import Logo from "../../assets/images/logo-color.svg"
 import { RxHamburgerMenu } from "react-icons/rx";
 import { FaCross } from 'react-icons/fa';
 import { RxCross2 } from 'react-icons/rx';
@@ -13,7 +13,7 @@ function Navbar(props) {
     <div className=' bg-transparent z-10'>
     <div className='w-[85%]  mx-auto top-5 flex flex-row justify-between items-center' style={{zIndex:props.zIndex}}>
     <div className='w-20 h-20'>
-    <img src={Logo} alt="Logo" className=' object-contain w-full h-full'/>
+    <img src={Logo} alt="Logo" className=' object-contain w-[80%] h-[80%] mt-2'/>
     </div>
     <div className='navbar hidden tablet:flex space-x-6 justify-center  w-[60%]'>
     <Link to="/the-Artemis-Website-V2/"><p className='text-sm cursor-pointer' id={active === "Home" ? 'active' : ""} style={{display:"block"}}>Home</p></Link>
