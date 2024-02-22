@@ -9,13 +9,18 @@ import CMU from "../../images/CMU.webp"
 import oxford from "../../images/oxford.webp"
 import stealth from "../../images/stealth.webp"
 import ai_blockchain from "../../images/Ai-blockchain2.webp"
+import mobile from "../../images/mobile.jpg"
+import dataAnalysis from "../../images/data-analysis.avif"
+import AISoftware from "../../images/ai-software.jpg"
+import training from "../../images/training.jpg"
+import research from "../../images/research.png"
 
 
 function ExploreServisesSection() {
     const [service, setServise] = useState("service1")
     const serviceData = [
         {
-            Image:Image,
+            Image:dataAnalysis,
             title:"Data Analytics",
             description:"Our Data Analytics service at Artemis AI is more than just crunching numbers; it's about transforming raw data into actionable insights that drive real change. Take our collaboration with the government of Rwanda, for example.",
             problem:"In Rwanda, there was a pressing need to promote recycling habits among citizens, but analyzing large-scale data to understand behaviors and implement effective strategies posed a significant challenge.",
@@ -24,7 +29,7 @@ function ExploreServisesSection() {
             clients:[{name:"Rwandan Ministry of ICT & Innovation", Logo:MinICT, country:"Rwanda"}]
         },
         {
-            Image:Image2,
+            Image:Image,
             title:"Generative AI Solutions",
             description:"At Artemis AI, our Generative AI Solutions are designed to revolutionize the way businesses engage with their customers. Let's delve into how we tackled a common challenge faced by many companies: providing round-the-clock customer support.",
             problem:"Many businesses struggle to maintain constant availability for customer inquiries, leading to dissatisfaction and lost opportunities for engagement.",
@@ -33,7 +38,7 @@ function ExploreServisesSection() {
             clients:[{name:"Apiday", Logo:apiday, country:"France"}]
         },
         {
-            Image:Image3,
+            Image:AISoftware,
             title:"AI Software Development",
             description:"With a focus on customization, Artemis AI develops AI software to address the unique requirements of each business. By leveraging cutting-edge AI technologies, they build tailored software solutions that automate processes, optimize operations, and drive efficiency across various industry domains.",
             problem:"Need for an advanced system to enable effective interaction with data and extract valuable insights.",
@@ -42,7 +47,7 @@ function ExploreServisesSection() {
             clients:[{name:"Seyvin", Logo:seyvin, country:"Rwanda"}]
         },
         {
-            Image:Image,
+            Image:training,
             title:"AI Training & Consultancy",
             description:"We empower teams with AI knowledge and expertise through comprehensive training and consultancy services. Businesses can enhance their internal capabilities and understanding of AI, enabling them to effectively integrate AI into their operations and develop AI-focused strategies.",
             problem:"Requirement to develop an accessible educational resource for machine learning.",
@@ -51,7 +56,7 @@ function ExploreServisesSection() {
             clients:[{name:"Carnegie Mellon University", Logo:CMU, country:"USA"}]
         },
         {
-            Image:Image2,
+            Image:mobile,
             title:"Web & Mobile App Development",
             description:"We specializes in building web and mobile applications integrated with AI capabilities. By incorporating AI into app development, businesses can deliver intelligent and personalized user experiences, automate tasks, and leverage data-driven insights to drive better user engagement and business outcomes.",
             problem:"Fintech startup in need of funding and a way to showcase its concept.",
@@ -60,7 +65,7 @@ function ExploreServisesSection() {
             clients:[{name:"Stealth Startup", Logo:stealth, country:"USA"}]
         },
         {
-            Image:Image3,
+            Image:research,
             title:"Research",
             description:"Cutting-edge AI Research for Tomorrow's Technological Breakthroughs.",
             problem:"Exploration of the state of NLP for Sustainable Development Goals (SDGs) and ethical data practices.",
@@ -110,7 +115,7 @@ function ExploreServisesSection() {
 */}
     </div>
     <div className='w-[100%] tablet:w-[65%]  '>
-    <img src={serviceContent.Image} alt="service picture" className='mb-3 h-[300px] w-full' style={{resize:"contain", objectFit:"cover"}}/>
+    <img src={serviceContent.Image} alt="service picture" className='mb-3 h-[300px] w-full' style={{resize:"contain", objectFit:"contain"}}/>
     <h3 className='text-lg text-gray-400 my-2' style={{fontFamily:"Montserrat"}}>{serviceContent.title}</h3>
     <p className='text-sm tablet:text-base my-2' style={{}}> {serviceContent.description}</p>
 

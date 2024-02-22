@@ -39,13 +39,13 @@ function App() {
     <Route exact path="/the-Artemis-Website-V2/servin" element={<SingleProductPage/>}/>
     <Route exact path="/the-Artemis-Website-V2/privacyPolicy" element={<PrivacyPolicy/>}/>
     
-   <Route exact path="/the-Artemis-Website-V2/products" element={<ProductsPage/>}/>
+   {/* <Route exact path="/the-Artemis-Website-V2/products" element={<ProductsPage/>}/>
    <Route exact path="/the-Artemis-Website-V2/products/:productId" element={<SingleProductPage />} /> 
    <Route exact path="/the-Artemis-Website-V2/products/#/:productId" element={<SingleProductPage />} />
 
     <Route exact path="/the-Artemis-Website-V2/media" element={<MediaPage/>}/>
     <Route exact path="/the-Artemis-Website-V2/media/article1" element={<SingleMediaPage />} />
-    <Route exact path="/the-Artemis-Website-V2/media/#/article1" element={<SingleMediaPage />} />
+    <Route exact path="/the-Artemis-Website-V2/media/#/article1" element={<SingleMediaPage />} /> */}
 
 {/*    
   <Route exact path="/the-Artemis-Website-V2/products/servin" element={<SingleProductPage />} /> 

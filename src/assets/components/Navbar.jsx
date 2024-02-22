@@ -18,8 +18,8 @@ function Navbar(props) {
     <div className='navbar hidden tablet:flex space-x-6 justify-center  w-[60%]'>
     <Link to="/the-Artemis-Website-V2/"><p className='text-sm cursor-pointer' id={active === "Home" ? 'active' : ""} style={{display:"block"}}>Home</p></Link>
     <Link to="/the-Artemis-Website-V2/services"> <p className='text-sm cursor-pointer' id={active ==="Services"?'active':""}> Services</p></Link>
-    <Link to="/the-Artemis-Website-V2/products"><p className='text-sm cursor-pointer' id={active ==="Products"?'active':""}> Products</p></Link>
-    <Link to="/the-Artemis-Website-V2/media"><p className='text-sm cursor-pointer' id={active ==="Media"?'active':""}> Media</p></Link>
+    {/* <Link to="/the-Artemis-Website-V2/products"><p className='text-sm cursor-pointer' id={active ==="Products"?'active':""}> Products</p></Link> */}
+    {/* <Link to="/the-Artemis-Website-V2/media"><p className='text-sm cursor-pointer' id={active ==="Media"?'active':""}> Media</p></Link> */}
     <Link to="/the-Artemis-Website-V2/contact"><p className='text-sm cursor-pointer' id={active ==="Contact"?'active':""}> Contact</p></Link>
     <Link to="/the-Artemis-Website-V2/about"><p className='text-sm cursor-pointer' id={active ==="About"?'active':""}> About Us</p></Link>
     </div>
@@ -29,8 +29,8 @@ function Navbar(props) {
     {hedersShown && <div className=' bg-white border border-gray-300 z-10 absolute w-full h-[70%] py-10 space-y-4 items-center flex  flex-col z-30'>
     <Link to="/the-Artemis-Website-V2/"> <p className='text-sm cursor-pointer' id={active ==="Home"?'active':""}> Home</p></Link>
     <Link to="/the-Artemis-Website-V2/services"> <p className='text-sm cursor-pointer' id={active ==="Service"?'active':""}> Services</p></Link>
-    <Link to="/the-Artemis-Website-V2/products"> <p className='text-sm cursor-pointer' id={active ==="Product"?'active':""}> Products</p></Link>
-    <Link to="/the-Artemis-Website-V2/media"> <p className='text-sm cursor-pointer' id={active ==="Media"?'active':""}> Media</p></Link>
+    {/* <Link to="/the-Artemis-Website-V2/products"> <p className='text-sm cursor-pointer' id={active ==="Product"?'active':""}> Products</p></Link> */}
+    {/* <Link to="/the-Artemis-Website-V2/media"> <p className='text-sm cursor-pointer' id={active ==="Media"?'active':""}> Media</p></Link> */}
     <Link to="/the-Artemis-Website-V2/contact"> <p className='text-sm cursor-pointer' id={active ==="Contact"?'active':""}> Contact</p></Link>
     <Link to="/the-Artemis-Website-V2/about"> <p className='text-sm cursor-pointer' id={active ==="About"?'active':""}> About Us</p></Link>
     <HashLink to="#contact" smooth><button className='text-white text-xs p-2 px-4 bg-blacky rounded-full'>Let's Talk </button></HashLink>

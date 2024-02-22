@@ -49,24 +49,6 @@ function OfferSection() {
       )
     })}
 
-{/*
-    <ServiceCard
-     title="Data
-    " title2="Analytics" content="Transforming Data into Actionable Insights"/>
-
-    <ServiceCard
-     title="Generative  " title2="AI Solutions " content="Adopting Generative AI for Your Business Needs "/>
-
-    <ServiceCard
-     title="AI Software " title2=" Development" content="Customizing AI Software to Your Unique Requirements"/>
-
-    <ServiceCard 
-    title="AI Training &" title2=" Consultancy" content="Empowering Teams with AI Knowledge and Expertise"/>
-
-    <ServiceCard
-     title= {"Web & Mobile "} title2=" App Development" content="Building AI-Integrated Web and Mobile Applications"/>
-  */}
-
     </div>
   )
 }
