@@ -43,7 +43,7 @@ function AboutUsPage() {
 
   {/* CEO WOrd */}
   <div className='w-full py-3 tablet:h-[60%] mx-auto my-10 px-5 bigphone:px-10 tablet:px-20 flex flex-col items-center justify-center space-y-10 bg-yellow-200'>
-  <h3 className='text-lg tablet:text-3xl text-center' style={{fontFamily:'Montserrat'}}>“Our goal is to is lorem In eu aliquet orci ac risus lobortis aenean diam aenean. Lorem ipsum dolor sit amet consectetur.”</h3>
+  <h3 className='text-lg tablet:text-3xl text-center' style={{fontFamily:'Montserrat'}}>“Our goal is to positively impact society by being at the forefront of AI innovation, ethical practices, and responsible development”</h3>
   <div className="flex flex-row space-center space-x-5 w-[80%] mx-auto self-center items-center justify-center">
     <div className="flex flex-col w-[300px]  items-center justify-center">
   <img src={Samy} className="w-20 h-20 object-cover rounded-full" />

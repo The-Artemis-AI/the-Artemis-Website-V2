@@ -1,4 +1,4 @@
-import {useState} from 'react'
+// import {useState} from 'react'
 // import ipad from "../../images/tablet2.webp"
 import ipad from "../../images/tab.webp"
 import { FaArrowRight } from 'react-icons/fa'

@@ -19,7 +19,7 @@ function HeroSection() {
 <IoIosArrowRoundForward className="bg-gradient-to-r from-blue-500 to-green-500 text-white rounded-full w-6 h-6 -rotate-45" />
 </button>
 </div>
-<div className='w-[105%] tablet:w-[50%] h-[105%] -translate-y-[0%] z-10' style={{backgroundImage:`url(${Hero})`, backgroundPosition:"center center", backgroundSize:"cover", backgroundRepeat:"no-repeat", resizeMode:"cover"}}></div>
+<div className='w-[95%] rounded-sm tablet:w-[50%] h-[105%] -translate-y-[0%] z-10' style={{backgroundImage:`url(${Hero})`, backgroundPosition:"center center", backgroundSize:"cover", backgroundRepeat:"no-repeat", resizeMode:"cover"}}></div>
     </div>
     </div>
     
