@@ -24,12 +24,13 @@ function TeamSection() {
     subtitle="Co-founder & Product Manager"
     Link="/the-Artemis-Website-V2/products/reppin"
     />
-{  /*  <PersonCard  
+    <PersonCard  
     Image={Image}
-    title={"Ncuti Gaele"}
-    subtitle="Marketing"
+    title={"Charles Yusuf"}
+    subtitle="NLP, Machine learning"
     Link="/the-Artemis-Website-V2/products/pumpin"
     />
+{  /*  
     <PersonCard
     Image={Image}
     title={"John Trovolta"}
