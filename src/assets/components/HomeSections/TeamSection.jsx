@@ -2,6 +2,7 @@ import React from 'react'
 import Image from "../../images/person.webp"
 import Image2 from "../../images/woman.svg"
 import Image3 from "../../images/deepmind.webp"
+import charles_yusuf from "../../images/charles_yusuf.jpeg"
 import PersonCard from '../PersonCard'
 import Endy from "../../images/Endy_pic.webp"
 import Samy from "../../images/Sam_pic.webp"
@@ -25,7 +26,7 @@ function TeamSection() {
     Link="/the-Artemis-Website-V2/products/reppin"
     />
     <PersonCard  
-    Image={Image}
+    Image={charles_yusuf}
     title={"Charles Yusuf"}
     subtitle="NLP, Machine learning"
     Link="/the-Artemis-Website-V2/products/pumpin"
