@@ -22,7 +22,7 @@
   "homepage": "https://the-artemis-ai.github.io/the-Artemis-Website-V2/",
   "description": "The Artemis website",
   "private": true,
-  "version": "0.0.1",
+  "version": "0.0.2",
   "type": "module",
   "scripts": {
     "start": "serve -s build",
